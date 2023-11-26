@@ -1,6 +1,9 @@
 package net.frizzkop.kamumod;
 
 import com.mojang.logging.LogUtils;
+import net.frizzkop.kamumod.item.ModCreativeModTabs;
+import net.frizzkop.kamumod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -28,6 +31,11 @@ public class KamuMod {
     public KamuMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        // Registramos el metodo "register" de ModItems
+        ModItems.register(modEventBus);
+        //Registramos el metodo "register" de ModCreativeModTabs
+        ModCreativeModTabs.register(modEventBus);
+
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -53,8 +61,13 @@ public class KamuMod {
         Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
     }
 
-    // Add the example block item to the building blocks tab
+    // Con este metodo se pueden anyadir objetos a las pestanyas del modo creativo
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        // Add Sapphire to "INGREDIENTS" creative tab
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(ModItems.SAPPHIRE);
+            event.accept(ModItems.RAW_SAPPHIRE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
