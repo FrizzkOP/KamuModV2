@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "kamumod:media_placa_hachis"
+    }
+  ],
+  "result": {
+    "item": "kamumod:bola_hachis",
+    "count": 2
+  }
+}

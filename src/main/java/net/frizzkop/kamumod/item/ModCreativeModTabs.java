@@ -15,11 +15,19 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, KamuMod.MOD_ID);
 
     // Creamos la pestanya y le asignamos los items que queremos que contenga
-    public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("tutorial_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
-            .title(Component.translatable("creativetab.tutorial_tab"))
+    public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("kamu_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.PORRITO_MARIHUANA.get()))
+            .title(Component.translatable("creativetab.kamu_tab"))
             .displayItems((pParameters, pOutput) -> {
-                pOutput.accept(ModItems.SAPPHIRE.get());
-                pOutput.accept(ModItems.RAW_SAPPHIRE.get());
+                pOutput.accept(ModItems.PLACA_HACHIS.get());
+                pOutput.accept(ModItems.MEDIA_PLACA_HACHIS.get());
+                pOutput.accept(ModItems.BOLA_HACHIS.get());
+                pOutput.accept(ModItems.PORRITO_MARIHUANA.get());
+                pOutput.accept(ModItems.PORRITO_HACHIS.get());
+                pOutput.accept(ModItems.TIRAS_TABACO.get());
+                pOutput.accept(ModItems.TABACO_MEZCLADO.get());
+                pOutput.accept(ModItems.PAPEL_RAW.get());
+                pOutput.accept(ModItems.BOQUILLA_CARTON.get());
+                pOutput.accept(ModItems.BOQUILLA_ALGODON.get());
             })
             .build());
 

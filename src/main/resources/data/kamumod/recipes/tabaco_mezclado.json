@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "TBT"
+  ],
+  "key": {
+    "T": {
+      "item": "kamumod:tiras_tabaco"
+    },
+    "B": {
+      "item": "kamumod:bola_hachis"
+    }
+  },
+  "result": {
+    "item": "kamumod:tabaco_mezclado",
+    "count": 2
+  }
+}

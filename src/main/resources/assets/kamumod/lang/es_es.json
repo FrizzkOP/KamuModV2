@@ -1,6 +1,14 @@
 {
-  "item.kamumod.sapphire": "Zafiro",
-  "item.kamumod.raw_sapphire": "Zafiro crudo",
+  "item.kamumod.placa_hachis": "Placa de hachis",
+  "item.kamumod.media_placa_hachis": "Media placa de hachis",
+  "item.kamumod.bola_hachis": "Bola de hachis",
+  "item.kamumod.porrito_marihuana": "Porrito de marihuana",
+  "item.kamumod.porrito_hachis": "Porrito de hachis",
+  "item.kamumod.tiras_tabaco": "Tiras de tabaco",
+  "item.kamumod.tabaco_mezclado": "Tabaco con hachis",
+  "item.kamumod.papel_raw": "Papel de liar RAW",
+  "item.kamumod.boquilla_carton": "Boquilla de carton",
+  "item.kamumod.boquilla_algodon": "Boquilla de algodon",
 
-  "creativetab.tutorial_tab": "Kamu Mod"
+  "creativetab.kamu_tab": "Kamu Mod"
 }

@@ -1,0 +1,56 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "kamumod:item/placa_hachis",
+		"particle": "kamumod:item/placa_hachis"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 6],
+			"to": [11, 2, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, 0.5, 8]},
+			"faces": {
+				"north": {"uv": [7, 0, 14, 2], "texture": "#0"},
+				"east": {"uv": [7, 4, 11, 6], "texture": "#0"},
+				"south": {"uv": [7, 2, 14, 4], "texture": "#0"},
+				"west": {"uv": [7, 6, 11, 8], "texture": "#0"},
+				"up": {"uv": [7, 4, 0, 0], "texture": "#0"},
+				"down": {"uv": [7, 4, 0, 8], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-3.73, -12.65, -32.84],
+			"translation": [3.75, 4.5, 0.5],
+			"scale": [0.79, 0.9, 0.9]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [142.22, -29.72, 116.94],
+			"translation": [-4.25, 4.75, 0],
+			"scale": [0.79, 0.9, 0.9]
+		},
+		"firstperson_righthand": {
+			"rotation": [13.92, -45.02, -39.73],
+			"translation": [3.25, 6, 6.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-178.81, 50.75, -117.5],
+			"translation": [5.75, 4.25, 4]
+		},
+		"ground": {
+			"translation": [0, 4.75, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"gui": {
+			"rotation": [52.25, 45, 0],
+			"translation": [0.75, 8.5, 0],
+			"scale": [1.85, 1.85, 1.85]
+		},
+		"fixed": {
+			"rotation": [-90, 34.25, 0],
+			"translation": [0.5, -0.25, -11.25],
+			"scale": [1.4, 1.4, 1.4]
+		}
+	}
+}

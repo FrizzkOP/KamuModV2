@@ -65,8 +65,7 @@ public class KamuMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         // Add Sapphire to "INGREDIENTS" creative tab
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItems.SAPPHIRE);
-            event.accept(ModItems.RAW_SAPPHIRE);
+            event.accept(ModItems.PLACA_HACHIS);
         }
     }
 
