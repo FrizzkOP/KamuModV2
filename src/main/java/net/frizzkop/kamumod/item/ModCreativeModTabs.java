@@ -1,6 +1,7 @@
 package net.frizzkop.kamumod.item;
 
 import net.frizzkop.kamumod.KamuMod;
+import net.frizzkop.kamumod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -28,6 +29,7 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModItems.PAPEL_RAW.get());
                 pOutput.accept(ModItems.BOQUILLA_CARTON.get());
                 pOutput.accept(ModItems.BOQUILLA_ALGODON.get());
+                pOutput.accept(ModBlocks.BLOQUE_HACHIS.get());
             })
             .build());
 

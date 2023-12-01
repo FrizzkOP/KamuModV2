@@ -1,6 +1,7 @@
 package net.frizzkop.kamumod;
 
 import com.mojang.logging.LogUtils;
+import net.frizzkop.kamumod.block.ModBlocks;
 import net.frizzkop.kamumod.item.ModCreativeModTabs;
 import net.frizzkop.kamumod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -33,6 +34,8 @@ public class KamuMod {
 
         // Registramos el metodo "register" de ModItems
         ModItems.register(modEventBus);
+        // Registramos el metodo "register" de ModBlocks
+        ModBlocks.register(modEventBus);
         //Registramos el metodo "register" de ModCreativeModTabs
         ModCreativeModTabs.register(modEventBus);
 
