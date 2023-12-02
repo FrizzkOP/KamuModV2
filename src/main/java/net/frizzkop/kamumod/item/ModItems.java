@@ -1,6 +1,8 @@
 package net.frizzkop.kamumod.item;
 
 import net.frizzkop.kamumod.KamuMod;
+import net.frizzkop.kamumod.item.custom.PorritoHachisItem;
+import net.frizzkop.kamumod.item.custom.PorritoMarihuanaItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -18,13 +20,14 @@ public class ModItems {
     public static final RegistryObject<Item> PLACA_HACHIS = ITEMS.register("placa_hachis", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MEDIA_PLACA_HACHIS = ITEMS.register("media_placa_hachis", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BOLA_HACHIS = ITEMS.register("bola_hachis", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> PORRITO_MARIHUANA = ITEMS.register("porrito_marihuana", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> PORRITO_HACHIS = ITEMS.register("porrito_hachis", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PORRITO_MARIHUANA = ITEMS.register("porrito_marihuana", () -> new PorritoMarihuanaItem(new Item.Properties().durability(4)));
+    public static final RegistryObject<Item> PORRITO_HACHIS = ITEMS.register("porrito_hachis", () -> new PorritoHachisItem(new Item.Properties().durability(4)));
     public static final RegistryObject<Item> TIRAS_TABACO = ITEMS.register("tiras_tabaco", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TABACO_MEZCLADO = ITEMS.register("tabaco_mezclado", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> PAPEL_RAW = ITEMS.register("papel_raw", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BOQUILLA_CARTON = ITEMS.register("boquilla_carton", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BOQUILLA_ALGODON = ITEMS.register("boquilla_algodon", () -> new Item(new Item.Properties()));
+
 
     // El ArrayList "ITEMS" que hemos creado tambien necesita ser registrado, lo hacemos de la siguiente manera
     // Creamos un metodo llamado "register" que recibe un parametro tipo "IEventBus". Este metodo lo llamaremos desde la clase principal "KamuMod"

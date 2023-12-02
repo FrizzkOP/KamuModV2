@@ -29,6 +29,7 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModItems.PAPEL_RAW.get());
                 pOutput.accept(ModItems.BOQUILLA_CARTON.get());
                 pOutput.accept(ModItems.BOQUILLA_ALGODON.get());
+
                 pOutput.accept(ModBlocks.BLOQUE_HACHIS.get());
             })
             .build());
