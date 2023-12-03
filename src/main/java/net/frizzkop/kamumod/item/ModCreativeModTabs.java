@@ -22,13 +22,18 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModItems.PLACA_HACHIS.get());
                 pOutput.accept(ModItems.MEDIA_PLACA_HACHIS.get());
                 pOutput.accept(ModItems.BOLA_HACHIS.get());
+                pOutput.accept(ModItems.WEED_BUD.get());
                 pOutput.accept(ModItems.PORRITO_MARIHUANA.get());
                 pOutput.accept(ModItems.PORRITO_HACHIS.get());
                 pOutput.accept(ModItems.TIRAS_TABACO.get());
                 pOutput.accept(ModItems.TABACO_MEZCLADO.get());
                 pOutput.accept(ModItems.PAPEL_RAW.get());
+                pOutput.accept(ModItems.GRINDER.get());
                 pOutput.accept(ModItems.BOQUILLA_CARTON.get());
                 pOutput.accept(ModItems.BOQUILLA_ALGODON.get());
+
+                pOutput.accept(ModItems.WEED_BROWNIE.get());
+                pOutput.accept(ModItems.HALF_WEED_BROWNIE.get());
                 //pOutput.accept(ModItems.WEED_SEEDS.get());
 
                 pOutput.accept(ModBlocks.BLOQUE_HACHIS.get());

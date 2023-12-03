@@ -1,11 +1,9 @@
 package net.frizzkop.kamumod.item;
 
 import net.frizzkop.kamumod.KamuMod;
-import net.frizzkop.kamumod.block.ModBlocks;
 import net.frizzkop.kamumod.item.custom.PorritoHachisItem;
 import net.frizzkop.kamumod.item.custom.PorritoMarihuanaItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -22,13 +20,20 @@ public class ModItems {
     public static final RegistryObject<Item> PLACA_HACHIS = ITEMS.register("placa_hachis", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MEDIA_PLACA_HACHIS = ITEMS.register("media_placa_hachis", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BOLA_HACHIS = ITEMS.register("bola_hachis", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WEED_BUD = ITEMS.register("weed_bud", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> PORRITO_MARIHUANA = ITEMS.register("porrito_marihuana", () -> new PorritoMarihuanaItem(new Item.Properties().durability(4)));
     public static final RegistryObject<Item> PORRITO_HACHIS = ITEMS.register("porrito_hachis", () -> new PorritoHachisItem(new Item.Properties().durability(4)));
     public static final RegistryObject<Item> TIRAS_TABACO = ITEMS.register("tiras_tabaco", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TABACO_MEZCLADO = ITEMS.register("tabaco_mezclado", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> PAPEL_RAW = ITEMS.register("papel_raw", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GRINDER = ITEMS.register("grinder", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BOQUILLA_CARTON = ITEMS.register("boquilla_carton", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BOQUILLA_ALGODON = ITEMS.register("boquilla_algodon", () -> new Item(new Item.Properties()));
+
+
+
+    public static final RegistryObject<Item> WEED_BROWNIE = ITEMS.register("weed_brownie", () -> new Item(new Item.Properties().food(ModFoods.WEED_BROWNIE).stacksTo(1)));
+    public static final RegistryObject<Item> HALF_WEED_BROWNIE = ITEMS.register("half_weed_brownie", () -> new Item(new Item.Properties().food(ModFoods.HALF_WEED_BROWNIE).stacksTo(4)));
 
     //public static final RegistryObject<Item> WEED_SEEDS = ITEMS.register("weed_seeds", () -> new ItemNameBlockItem(ModBlocks.WEED_CROP.get(),new Item.Properties()));
 
