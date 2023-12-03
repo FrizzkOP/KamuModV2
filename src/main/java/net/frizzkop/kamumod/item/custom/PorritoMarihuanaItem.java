@@ -26,11 +26,12 @@ public class PorritoMarihuanaItem extends Item {
             if (pLivingEntity instanceof Player pPlayer) {
                 pStack.hurtAndBreak(1, pPlayer, player -> player.broadcastBreakEvent(pPlayer.getUsedItemHand()));
                 pPlayer.addEffect(new MobEffectInstance(MobEffects.HUNGER,600));
-                pPlayer.addEffect(new MobEffectInstance(MobEffects.CONFUSION,100));
-                pPlayer.addEffect(new MobEffectInstance(MobEffects.REGENERATION,600));
+                pPlayer.addEffect(new MobEffectInstance(MobEffects.CONFUSION,200));
+                pPlayer.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST,1200));
+                pPlayer.addEffect(new MobEffectInstance(MobEffects.REGENERATION,100));
             }
         }
-        for(int i = 0 ; i < 4 ; i++) {
+        for(int i = 0 ; i < 10 ; i++) {
             pLevel.addParticle(ParticleTypes.CAMPFIRE_COSY_SMOKE, pLivingEntity.getX(), pLivingEntity.getY() + 2, pLivingEntity.getZ(), 0, 0.02d, 0.02d);
         }
 
@@ -40,7 +41,7 @@ public class PorritoMarihuanaItem extends Item {
 
     // Define el tiempo que tiene que estar usandose
     public int getUseDuration(ItemStack pStack) {
-        return 45;
+        return 35;
     }
 
     // Define que animacion va a usar

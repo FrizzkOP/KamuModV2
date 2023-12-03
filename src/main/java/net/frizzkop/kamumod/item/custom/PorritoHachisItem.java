@@ -1,9 +1,6 @@
 package net.frizzkop.kamumod.item.custom;
 
 
-import net.minecraft.client.particle.Particle;
-import net.minecraft.core.particles.BlockParticleOption;
-import net.minecraft.core.particles.ParticleOptions;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.InteractionHand;
@@ -27,12 +24,12 @@ public class PorritoHachisItem extends Item {
             if (pLivingEntity instanceof Player pPlayer) {
                 pStack.hurtAndBreak(1, pPlayer, player -> player.broadcastBreakEvent(pPlayer.getUsedItemHand()));
                 pPlayer.addEffect(new MobEffectInstance(MobEffects.HUNGER,600));
-                pPlayer.addEffect(new MobEffectInstance(MobEffects.CONFUSION,100));
-                pPlayer.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED,600));
+                pPlayer.addEffect(new MobEffectInstance(MobEffects.CONFUSION,200));
+                pPlayer.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED,1200));
                 pPlayer.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED,1200));
             }
         }
-        for(int i = 0 ; i < 4 ; i++) {
+        for(int i = 0 ; i < 10 ; i++) {
             pLevel.addParticle(ParticleTypes.CAMPFIRE_COSY_SMOKE, pLivingEntity.getX(), pLivingEntity.getY() + 2, pLivingEntity.getZ(), 0, 0.02d, 0.02d);
         }
 
@@ -42,7 +39,7 @@ public class PorritoHachisItem extends Item {
 
     // Define el tiempo que tiene que estar usandose
     public int getUseDuration(ItemStack pStack) {
-        return 45;
+        return 35;
     }
 
     // Define que animacion va a usar
