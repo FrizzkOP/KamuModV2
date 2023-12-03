@@ -20,6 +20,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> BLOQUE_HACHIS = registerBlock("bloque_hachis", () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).strength(1.0F).sound(SoundType.SAND)));
 
+    //public static final RegistryObject<Block> WEED_CROP = BLOCKS.register("weed_crop", () -> new WeedCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name,block);
         registerBlockItem(name,toReturn);
