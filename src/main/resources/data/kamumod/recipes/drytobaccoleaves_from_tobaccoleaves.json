@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "group": "dry_tobacco_leaves",
+  "ingredient": {
+    "item": "kamumod:tobacco_leaves"
+  },
+  "result": "kamumod:dry_tobacco_leaves"
+}

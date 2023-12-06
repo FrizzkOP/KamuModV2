@@ -26,6 +26,8 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModItems.GRINDED_WEED.get());
                 pOutput.accept(ModItems.PORRITO_MARIHUANA.get());
                 pOutput.accept(ModItems.PORRITO_HACHIS.get());
+                pOutput.accept(ModItems.TOBACCO_LEAVES.get());
+                pOutput.accept(ModItems.DRY_TOBACCO_LEAVES.get());
                 pOutput.accept(ModItems.TIRAS_TABACO.get());
                 pOutput.accept(ModItems.TABACO_MEZCLADO.get());
                 pOutput.accept(ModItems.PAPEL_RAW.get());
@@ -35,7 +37,8 @@ public class ModCreativeModTabs {
 
                 pOutput.accept(ModItems.WEED_BROWNIE.get());
                 pOutput.accept(ModItems.HALF_WEED_BROWNIE.get());
-                //pOutput.accept(ModItems.WEED_SEEDS.get());
+
+                pOutput.accept(ModItems.TOBACCO_SEEDS.get());
 
                 pOutput.accept(ModBlocks.BLOQUE_HACHIS.get());
                 pOutput.accept(ModBlocks.FARDO_HACHIS.get());

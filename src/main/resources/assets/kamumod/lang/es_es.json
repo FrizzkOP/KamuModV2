@@ -6,6 +6,8 @@
   "item.kamumod.grinded_weed": "Marihuana picada",
   "item.kamumod.porrito_marihuana": "Porrito de marihuana",
   "item.kamumod.porrito_hachis": "Porrito de hachis",
+  "item.kamumod.tobacco_leaves": "Hojas de tabaco",
+  "item.kamumod.dry_tobacco_leaves": "Hojas de tabaco secas",
   "item.kamumod.tiras_tabaco": "Tiras de tabaco",
   "item.kamumod.tabaco_mezclado": "Tabaco con hachis",
   "item.kamumod.papel_raw": "Papel de liar RAW",
@@ -16,7 +18,7 @@
   "item.kamumod.weed_brownie": "Brownie de marihuana",
   "item.kamumod.half_weed_brownie": "Medio brownie de marihuana",
 
-  "item.kamumod.weed_seeds": "Semillas de marihuana",
+  "item.kamumod.tobacco_seeds": "Semillas de tabaco",
 
   "block.kamumod.bloque_hachis": "Bloque de hachis",
   "block.kamumod.fardo_hachis": "Fardo de hachis",
