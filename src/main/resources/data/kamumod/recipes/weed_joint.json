@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PWP",
+    "PWP",
+    "PBP"
+  ],
+  "key": {
+    "T": {
+      "item": "kamumod:grinded_weed"
+    },
+    "B": [
+      {
+        "item": "kamumod:boquilla_carton"
+      },
+      {
+        "item": "kamumod:boquilla_algodon"
+      }
+    ],
+    "P": {
+      "item": "kamumod:papel_raw"
+    }
+  },
+  "result": {
+    "item": "kamumod:porrito_marihuana"
+  }
+}

@@ -1,6 +1,7 @@
 package net.frizzkop.kamumod.block;
 
 import net.frizzkop.kamumod.KamuMod;
+import net.frizzkop.kamumod.block.custom.FardoHachisBlock;
 import net.frizzkop.kamumod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -16,12 +17,18 @@ import net.minecraftforge.registries.RegistryObject;
 import java.util.function.Supplier;
 
 public class ModBlocks {
+    // DEFERRED REGISTER
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, KamuMod.MOD_ID);
 
-    public static final RegistryObject<Block> BLOQUE_HACHIS = registerBlock("bloque_hachis", () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).strength(1.0F).sound(SoundType.SAND)));
+    public static final RegistryObject<Block> BLOQUE_HACHIS = registerBlock("bloque_hachis",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).strength(1.0F).sound(SoundType.SAND)));
 
+    public static final RegistryObject<Block> FARDO_HACHIS = registerBlock("fardo_hachis",
+            () -> new FardoHachisBlock(BlockBehaviour.Properties.copy(Blocks.DIRT).noOcclusion().sound(SoundType.SAND)));
     //public static final RegistryObject<Block> WEED_CROP = BLOCKS.register("weed_crop", () -> new WeedCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
+
+    // METHODS
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name,block);
         registerBlockItem(name,toReturn);

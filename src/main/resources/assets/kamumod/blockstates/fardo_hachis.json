@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "kamumod:block/fardo_hachis",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "kamumod:block/fardo_hachis",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "kamumod:block/fardo_hachis"
+    },
+    "facing=west": {
+      "model": "kamumod:block/fardo_hachis",
+      "y": 90
+    }
+  }
+}

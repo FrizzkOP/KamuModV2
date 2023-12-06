@@ -3,6 +3,7 @@
   "item.kamumod.media_placa_hachis": "Media placa de hachis",
   "item.kamumod.bola_hachis": "Bola de hachis",
   "item.kamumod.weed_bud": "Cogollo de marihuana",
+  "item.kamumod.grinded_weed": "Marihuana picada",
   "item.kamumod.porrito_marihuana": "Porrito de marihuana",
   "item.kamumod.porrito_hachis": "Porrito de hachis",
   "item.kamumod.tiras_tabaco": "Tiras de tabaco",
@@ -18,6 +19,7 @@
   "item.kamumod.weed_seeds": "Semillas de marihuana",
 
   "block.kamumod.bloque_hachis": "Bloque de hachis",
+  "block.kamumod.fardo_hachis": "Fardo de hachis",
 
   "block.kamumod.weed_crop": "Cultivo de marihuana",
 
