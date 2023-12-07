@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PBG",
+    "WWW",
+    "F F"
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "F":
+    {
+      "tag": "minecraft:wooden_fences"
+    },
+    "G": {
+      "item": "kamumod:grinder"
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "P": {
+      "item": "kamumod:papel_raw"
+    }
+  },
+  "result": {
+    "item": "kamumod:smoker_table"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "kamumod:block/smoker_table",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "kamumod:block/smoker_table",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "kamumod:block/smoker_table"
+    },
+    "facing=west": {
+      "model": "kamumod:block/smoker_table",
+      "y": 90
+    }
+  }
+}

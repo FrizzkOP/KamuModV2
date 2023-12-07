@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "kamumod:placa_hachis"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "HHP",
+    "HHP"
+  ],
+  "result": {
+    "item": "kamumod:fardo_hachis"
+  }
+}

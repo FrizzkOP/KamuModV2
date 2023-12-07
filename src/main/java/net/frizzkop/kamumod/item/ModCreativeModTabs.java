@@ -35,13 +35,16 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModItems.BOQUILLA_CARTON.get());
                 pOutput.accept(ModItems.BOQUILLA_ALGODON.get());
 
+
                 pOutput.accept(ModItems.WEED_BROWNIE.get());
                 pOutput.accept(ModItems.HALF_WEED_BROWNIE.get());
 
                 pOutput.accept(ModItems.TOBACCO_SEEDS.get());
+                pOutput.accept(ModItems.WEED_SEEDS.get());
 
                 pOutput.accept(ModBlocks.BLOQUE_HACHIS.get());
                 pOutput.accept(ModBlocks.FARDO_HACHIS.get());
+                pOutput.accept(ModBlocks.SMOKER_TABLE.get());
             })
             .build());
 

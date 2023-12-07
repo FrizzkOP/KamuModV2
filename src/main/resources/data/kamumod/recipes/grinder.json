@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SRS",
+    "SYS",
+    "SGS"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:green_dye"
+    },
+    "Y":
+    {
+      "item": "minecraft:yellow_dye"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    },
+    "S": {
+      "item": "minecraft:smooth_stone_slab"
+    }
+  },
+  "result": {
+    "item": "kamumod:grinder"
+  }
+}

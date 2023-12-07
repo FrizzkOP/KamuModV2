@@ -4,6 +4,8 @@ import net.frizzkop.kamumod.KamuMod;
 import net.frizzkop.kamumod.block.ModBlocks;
 import net.frizzkop.kamumod.item.custom.PorritoHachisItem;
 import net.frizzkop.kamumod.item.custom.PorritoMarihuanaItem;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,6 +21,8 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, KamuMod.MOD_ID);
 
     // Para crear y registrar objetos lo hacemos de la siguiente manera
+
+    // ITEMS
     public static final RegistryObject<Item> PLACA_HACHIS = ITEMS.register("placa_hachis", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MEDIA_PLACA_HACHIS = ITEMS.register("media_placa_hachis", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BOLA_HACHIS = ITEMS.register("bola_hachis", () -> new Item(new Item.Properties()));
@@ -36,13 +40,22 @@ public class ModItems {
     public static final RegistryObject<Item> BOQUILLA_ALGODON = ITEMS.register("boquilla_algodon", () -> new Item(new Item.Properties()));
 
 
+    // ARMORS
 
+
+
+
+    // TOOLS
+
+
+    // FOOD
     public static final RegistryObject<Item> WEED_BROWNIE = ITEMS.register("weed_brownie", () -> new Item(new Item.Properties().food(ModFoods.WEED_BROWNIE).stacksTo(1)));
     public static final RegistryObject<Item> HALF_WEED_BROWNIE = ITEMS.register("half_weed_brownie", () -> new Item(new Item.Properties().food(ModFoods.HALF_WEED_BROWNIE).stacksTo(4)));
 
 
-
+    // SEEDS
     public static final RegistryObject<Item> TOBACCO_SEEDS = ITEMS.register("tobacco_seeds", () -> new ItemNameBlockItem(ModBlocks.TOBACCO_CROP.get(),new Item.Properties()));
+    public static final RegistryObject<Item> WEED_SEEDS = ITEMS.register("weed_seeds", () -> new ItemNameBlockItem(ModBlocks.WEED_CROP.get(),new Item.Properties()));
 
 
     // El ArrayList "ITEMS" que hemos creado tambien necesita ser registrado, lo hacemos de la siguiente manera

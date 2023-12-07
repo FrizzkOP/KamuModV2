@@ -2,7 +2,9 @@ package net.frizzkop.kamumod.block;
 
 import net.frizzkop.kamumod.KamuMod;
 import net.frizzkop.kamumod.block.custom.FardoHachisBlock;
+import net.frizzkop.kamumod.block.custom.SmokerTableBlock;
 import net.frizzkop.kamumod.block.custom.TobaccoCropBlock;
+import net.frizzkop.kamumod.block.custom.WeedCropBlock;
 import net.frizzkop.kamumod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -25,8 +27,14 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).strength(1.0F).sound(SoundType.SAND)));
 
     public static final RegistryObject<Block> FARDO_HACHIS = registerBlock("fardo_hachis",
-            () -> new FardoHachisBlock(BlockBehaviour.Properties.copy(Blocks.DIRT).noOcclusion().sound(SoundType.SAND)));
+            () -> new FardoHachisBlock(BlockBehaviour.Properties.copy(Blocks.DIRT).noOcclusion().sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> SMOKER_TABLE = registerBlock("smoker_table",
+            () -> new SmokerTableBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()));
+
+    // CROPS
     public static final RegistryObject<Block> TOBACCO_CROP = BLOCKS.register("tobacco_crop", () -> new TobaccoCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
+    public static final RegistryObject<Block> WEED_CROP = BLOCKS.register("weed_crop", () -> new WeedCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
 
     // METHODS
