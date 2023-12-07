@@ -10,8 +10,9 @@
     }
   },
   "pattern": [
-    "HHP",
-    "HHP"
+    "PPP",
+    "HHH",
+    "PPP"
   ],
   "result": {
     "item": "kamumod:fardo_hachis"

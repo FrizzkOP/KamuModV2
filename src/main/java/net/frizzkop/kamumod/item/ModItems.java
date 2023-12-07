@@ -2,6 +2,7 @@ package net.frizzkop.kamumod.item;
 
 import net.frizzkop.kamumod.KamuMod;
 import net.frizzkop.kamumod.block.ModBlocks;
+import net.frizzkop.kamumod.item.custom.CigarreteCaseItem;
 import net.frizzkop.kamumod.item.custom.GrinderItem;
 import net.frizzkop.kamumod.item.custom.PorritoHachisItem;
 import net.frizzkop.kamumod.item.custom.PorritoMarihuanaItem;
@@ -52,6 +53,7 @@ public class ModItems {
     // FOOD
     public static final RegistryObject<Item> WEED_BROWNIE = ITEMS.register("weed_brownie", () -> new Item(new Item.Properties().food(ModFoods.WEED_BROWNIE).stacksTo(16)));
     public static final RegistryObject<Item> HALF_WEED_BROWNIE = ITEMS.register("half_weed_brownie", () -> new Item(new Item.Properties().food(ModFoods.HALF_WEED_BROWNIE).stacksTo(16)));
+    public static final RegistryObject<Item> WEED_BROWNIE_DOUGH = ITEMS.register("weed_brownie_dough", () -> new Item(new Item.Properties().food(ModFoods.WEED_BROWNIE_DOUGH).stacksTo(16)));
 
 
     // SEEDS

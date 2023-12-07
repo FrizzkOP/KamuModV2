@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "GBG",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:wheat"
+    },
+    "C":
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    "G": {
+      "item": "kamumod:grinded_weed"
+    },
+    "B": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "item": "kamumod:weed_brownie_dough"
+  }
+}

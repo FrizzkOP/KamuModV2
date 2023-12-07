@@ -38,6 +38,7 @@ public class ModCreativeModTabs {
 
                 pOutput.accept(ModItems.WEED_BROWNIE.get());
                 pOutput.accept(ModItems.HALF_WEED_BROWNIE.get());
+                pOutput.accept(ModItems.WEED_BROWNIE_DOUGH.get());
 
                 pOutput.accept(ModItems.TOBACCO_SEEDS.get());
                 pOutput.accept(ModItems.WEED_SEEDS.get());

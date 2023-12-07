@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "kamumod:weed_bud"
+      "item": "kamumod:weed_brownie"
     }
   ],
   "result": {
-    "item": "kamumod:grinded_weed",
-    "count": 1
+    "item": "kamumod:half_weed_brownie",
+    "count": 2
   }
 }

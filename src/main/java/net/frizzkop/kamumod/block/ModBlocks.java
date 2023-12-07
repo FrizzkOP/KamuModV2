@@ -24,7 +24,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, KamuMod.MOD_ID);
 
     public static final RegistryObject<Block> BLOQUE_HACHIS = registerBlock("bloque_hachis",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).strength(1.0F).sound(SoundType.SAND)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MUD).strength(1.0F).sound(SoundType.MUD_BRICKS)));
 
     public static final RegistryObject<Block> FARDO_HACHIS = registerBlock("fardo_hachis",
             () -> new FardoHachisBlock(BlockBehaviour.Properties.copy(Blocks.DIRT).noOcclusion().sound(SoundType.STONE)));
