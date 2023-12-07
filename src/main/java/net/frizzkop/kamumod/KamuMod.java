@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.frizzkop.kamumod.block.ModBlocks;
 import net.frizzkop.kamumod.item.ModCreativeModTabs;
 import net.frizzkop.kamumod.item.ModItems;
+import net.frizzkop.kamumod.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
@@ -36,8 +37,11 @@ public class KamuMod {
         ModItems.register(modEventBus);
         // Registramos el metodo "register" de ModBlocks
         ModBlocks.register(modEventBus);
-        //Registramos el metodo "register" de ModCreativeModTabs
+        // Registramos el metodo "register" de ModCreativeModTabs
         ModCreativeModTabs.register(modEventBus);
+
+        // Registramos el metodo de ModLootModifiers
+        ModLootModifiers.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

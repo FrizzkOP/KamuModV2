@@ -24,8 +24,8 @@ public class ModItems {
     // Para crear y registrar objetos lo hacemos de la siguiente manera
 
     // ITEMS
-    public static final RegistryObject<Item> PLACA_HACHIS = ITEMS.register("placa_hachis", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> MEDIA_PLACA_HACHIS = ITEMS.register("media_placa_hachis", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PLACA_HACHIS = ITEMS.register("placa_hachis", () -> new Item(new Item.Properties().stacksTo(16)));
+    public static final RegistryObject<Item> MEDIA_PLACA_HACHIS = ITEMS.register("media_placa_hachis", () -> new Item(new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> BOLA_HACHIS = ITEMS.register("bola_hachis", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WEED_BUD = ITEMS.register("weed_bud", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> GRINDED_WEED = ITEMS.register("grinded_weed", () -> new Item(new Item.Properties()));
@@ -50,8 +50,8 @@ public class ModItems {
 
 
     // FOOD
-    public static final RegistryObject<Item> WEED_BROWNIE = ITEMS.register("weed_brownie", () -> new Item(new Item.Properties().food(ModFoods.WEED_BROWNIE).stacksTo(1)));
-    public static final RegistryObject<Item> HALF_WEED_BROWNIE = ITEMS.register("half_weed_brownie", () -> new Item(new Item.Properties().food(ModFoods.HALF_WEED_BROWNIE).stacksTo(4)));
+    public static final RegistryObject<Item> WEED_BROWNIE = ITEMS.register("weed_brownie", () -> new Item(new Item.Properties().food(ModFoods.WEED_BROWNIE).stacksTo(16)));
+    public static final RegistryObject<Item> HALF_WEED_BROWNIE = ITEMS.register("half_weed_brownie", () -> new Item(new Item.Properties().food(ModFoods.HALF_WEED_BROWNIE).stacksTo(16)));
 
 
     // SEEDS

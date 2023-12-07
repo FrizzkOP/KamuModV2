@@ -4,7 +4,6 @@ import net.frizzkop.kamumod.item.ModItems;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
-import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -25,12 +24,12 @@ public class GrinderItem extends Item {
                 pPlayer.setItemInHand(InteractionHand.OFF_HAND,new ItemStack(ModItems.GRINDED_WEED.get()));
             }else if (pPlayer.getInventory().add(new ItemStack(ModItems.GRINDED_WEED.get(), 1)) == false) {
                 pPlayer.drop(new ItemStack(ModItems.GRINDED_WEED.get()), true);
-
             }
 
             if(count != 1){
                 pPlayer.getItemInHand(InteractionHand.OFF_HAND).setCount(count - 1);
             }
+            pPlayer.getItemInHand(InteractionHand.MAIN_HAND).hurtAndBreak(1, pPlayer, player -> player.broadcastBreakEvent(pPlayer.getUsedItemHand()));
             pPlayer.playSound(SoundEvents.GRINDSTONE_USE, 0.6f,1.0f);
         }
         return super.use(pLevel, pPlayer, pUsedHand);
