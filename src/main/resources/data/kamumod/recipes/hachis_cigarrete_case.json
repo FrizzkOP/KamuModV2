@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "kamumod:porrito_hachis"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "III",
+    "PPP",
+    "PPP"
+  ],
+  "result": {
+    "item": "kamumod:hachis_cigarrete_case"
+  }
+}

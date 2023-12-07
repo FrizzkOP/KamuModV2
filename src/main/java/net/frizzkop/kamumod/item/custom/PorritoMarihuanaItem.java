@@ -25,8 +25,8 @@ public class PorritoMarihuanaItem extends Item {
         if(!pLevel.isClientSide) {
             if (pLivingEntity instanceof Player pPlayer) {
                 pStack.hurtAndBreak(1, pPlayer, player -> player.broadcastBreakEvent(pPlayer.getUsedItemHand()));
-                pPlayer.addEffect(new MobEffectInstance(MobEffects.HUNGER,600));
-                pPlayer.addEffect(new MobEffectInstance(MobEffects.CONFUSION,200));
+                pPlayer.addEffect(new MobEffectInstance(MobEffects.HUNGER,800));
+                pPlayer.addEffect(new MobEffectInstance(MobEffects.CONFUSION,300));
                 pPlayer.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST,1200));
                 pPlayer.addEffect(new MobEffectInstance(MobEffects.REGENERATION,100));
             }

@@ -24,9 +24,9 @@ public class PorritoHachisItem extends Item {
         if(!pLevel.isClientSide) {
             if (pLivingEntity instanceof Player pPlayer) {
                 pStack.hurtAndBreak(1, pPlayer, player -> player.broadcastBreakEvent(pPlayer.getUsedItemHand()));
-                pPlayer.addEffect(new MobEffectInstance(MobEffects.HUNGER,600));
-                pPlayer.addEffect(new MobEffectInstance(MobEffects.CONFUSION,200));
-                pPlayer.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED,1200));
+                pPlayer.addEffect(new MobEffectInstance(MobEffects.HUNGER,800));
+                pPlayer.addEffect(new MobEffectInstance(MobEffects.CONFUSION,300));
+                pPlayer.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED,700));
                 pPlayer.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED,1200));
             }
         }
@@ -37,6 +37,7 @@ public class PorritoHachisItem extends Item {
         pLivingEntity.playSound(SoundEvents.FIRE_EXTINGUISH, 0.5F, 1.0F);
         return pStack;
     }
+
 
     // Define el tiempo que tiene que estar usandose
     public int getUseDuration(ItemStack pStack) {

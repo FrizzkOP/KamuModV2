@@ -2,12 +2,7 @@ package net.frizzkop.kamumod.item;
 
 import net.frizzkop.kamumod.KamuMod;
 import net.frizzkop.kamumod.block.ModBlocks;
-import net.frizzkop.kamumod.item.custom.CigarreteCaseItem;
-import net.frizzkop.kamumod.item.custom.GrinderItem;
-import net.frizzkop.kamumod.item.custom.PorritoHachisItem;
-import net.frizzkop.kamumod.item.custom.PorritoMarihuanaItem;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.ArmorMaterials;
+import net.frizzkop.kamumod.item.custom.*;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -36,10 +31,13 @@ public class ModItems {
     public static final RegistryObject<Item> DRY_TOBACCO_LEAVES = ITEMS.register("dry_tobacco_leaves", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TIRAS_TABACO = ITEMS.register("tiras_tabaco", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TABACO_MEZCLADO = ITEMS.register("tabaco_mezclado", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> PAPEL_RAW = ITEMS.register("papel_raw", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PAPEL_RAW = ITEMS.register("papel_raw", () -> new Item(new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> GRINDER = ITEMS.register("grinder", () -> new GrinderItem(new Item.Properties().durability(20)));
     public static final RegistryObject<Item> BOQUILLA_CARTON = ITEMS.register("boquilla_carton", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BOQUILLA_ALGODON = ITEMS.register("boquilla_algodon", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WEED_CIGARRETE_CASE = ITEMS.register("weed_cigarrete_case", () -> new WeedCigarreteCaseItem(new Item.Properties().durability(6)));
+    public static final RegistryObject<Item> HACHIS_CIGARRETE_CASE = ITEMS.register("hachis_cigarrete_case", () -> new HachisCigarreteCaseItem(new Item.Properties().durability(6)));
+    public static final RegistryObject<Item> ROLLING_PAPER_BOOKLET = ITEMS.register("rolling_paper_booklet", () -> new RollingPaperBookletItem(new Item.Properties().durability(18)));
 
 
     // ARMORS

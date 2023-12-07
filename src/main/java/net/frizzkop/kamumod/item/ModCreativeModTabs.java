@@ -34,6 +34,9 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModItems.GRINDER.get());
                 pOutput.accept(ModItems.BOQUILLA_CARTON.get());
                 pOutput.accept(ModItems.BOQUILLA_ALGODON.get());
+                pOutput.accept(ModItems.WEED_CIGARRETE_CASE.get());
+                pOutput.accept(ModItems.HACHIS_CIGARRETE_CASE.get());
+                pOutput.accept(ModItems.ROLLING_PAPER_BOOKLET.get());
 
 
                 pOutput.accept(ModItems.WEED_BROWNIE.get());
