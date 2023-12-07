@@ -2,6 +2,7 @@ package net.frizzkop.kamumod.item;
 
 import net.frizzkop.kamumod.KamuMod;
 import net.frizzkop.kamumod.block.ModBlocks;
+import net.frizzkop.kamumod.item.custom.GrinderItem;
 import net.frizzkop.kamumod.item.custom.PorritoHachisItem;
 import net.frizzkop.kamumod.item.custom.PorritoMarihuanaItem;
 import net.minecraft.world.item.ArmorItem;
@@ -35,7 +36,7 @@ public class ModItems {
     public static final RegistryObject<Item> TIRAS_TABACO = ITEMS.register("tiras_tabaco", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TABACO_MEZCLADO = ITEMS.register("tabaco_mezclado", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> PAPEL_RAW = ITEMS.register("papel_raw", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> GRINDER = ITEMS.register("grinder", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GRINDER = ITEMS.register("grinder", () -> new GrinderItem(new Item.Properties().durability(20)));
     public static final RegistryObject<Item> BOQUILLA_CARTON = ITEMS.register("boquilla_carton", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BOQUILLA_ALGODON = ITEMS.register("boquilla_algodon", () -> new Item(new Item.Properties()));
 

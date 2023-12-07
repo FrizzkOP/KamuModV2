@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GW"
+  ],
+  "key": {
+    "G": {
+      "item": "kamumod:grinder"
+    },
+    "W": {
+      "item": "kamumod:weed_bud"
+    }
+  },
+  "result": {
+    "item": "kamumod:grinded_weed",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "kamumod:dry_tobacco_leaves"
+    }
+  ],
+  "result": {
+    "item": "kamumod:tiras_tabaco",
+    "count": 2
+  }
+}
