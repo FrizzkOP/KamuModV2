@@ -1,10 +1,7 @@
 package net.frizzkop.kamumod.block;
 
 import net.frizzkop.kamumod.KamuMod;
-import net.frizzkop.kamumod.block.custom.FardoHachisBlock;
-import net.frizzkop.kamumod.block.custom.SmokerTableBlock;
-import net.frizzkop.kamumod.block.custom.TobaccoCropBlock;
-import net.frizzkop.kamumod.block.custom.WeedCropBlock;
+import net.frizzkop.kamumod.block.custom.*;
 import net.frizzkop.kamumod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -31,6 +28,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SMOKER_TABLE = registerBlock("smoker_table",
             () -> new SmokerTableBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()));
+    public static final RegistryObject<Block> XBOX360 = registerBlock("xbox360",
+            () -> new Xbox360Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()));
 
     // CROPS
     public static final RegistryObject<Block> TOBACCO_CROP = BLOCKS.register("tobacco_crop", () -> new TobaccoCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));

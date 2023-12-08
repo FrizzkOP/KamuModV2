@@ -49,6 +49,7 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModBlocks.BLOQUE_HACHIS.get());
                 pOutput.accept(ModBlocks.FARDO_HACHIS.get());
                 pOutput.accept(ModBlocks.SMOKER_TABLE.get());
+                pOutput.accept(ModBlocks.XBOX360.get());
             })
             .build());
 
