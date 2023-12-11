@@ -17,6 +17,8 @@
   "item.kamumod.weed_cigarrete_case": "Pitillera de canutos",
   "item.kamumod.hachis_cigarrete_case": "Pitillera de porros",
   "item.kamumod.rolling_paper_booklet": "Libreto de papel de liar",
+  "item.kamumod.empty_bong_item": "Bong vacio",
+  "item.kamumod.filled_bong_item": "Bong con marihuana",
 
 
   "item.kamumod.weed_brownie": "Brownie de marihuana",
@@ -29,6 +31,8 @@
   "block.kamumod.bloque_hachis": "Bloque de hachis",
   "block.kamumod.fardo_hachis": "Fardo de hachis",
   "block.kamumod.smoker_table": "Mesa del fumador",
+  "block.kamumod.empty_bong_block": "Bong vacio",
+  "block.kamumod.filled_bong_block": "Bong con marihuana",
   "block.kamumod.xbox360": "Xbox 360",
 
   "block.kamumod.tobacco_crop": "Cultivo de tabaco",

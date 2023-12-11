@@ -38,6 +38,8 @@ public class ModItems {
     public static final RegistryObject<Item> WEED_CIGARRETE_CASE = ITEMS.register("weed_cigarrete_case", () -> new WeedCigarreteCaseItem(new Item.Properties().durability(6)));
     public static final RegistryObject<Item> HACHIS_CIGARRETE_CASE = ITEMS.register("hachis_cigarrete_case", () -> new HachisCigarreteCaseItem(new Item.Properties().durability(6)));
     public static final RegistryObject<Item> ROLLING_PAPER_BOOKLET = ITEMS.register("rolling_paper_booklet", () -> new RollingPaperBookletItem(new Item.Properties().durability(18)));
+    public static final RegistryObject<Item> EMPTY_BONG = ITEMS.register("empty_bong_item", () -> new EmptyBongItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> FILLED_BONG = ITEMS.register("filled_bong_item", () -> new FilledBongItem(new Item.Properties().stacksTo(1)));
 
 
     // ARMORS

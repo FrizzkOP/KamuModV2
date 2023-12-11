@@ -1,0 +1,4 @@
+- Añadir receta para xbox360
+- Añadir receta para empty_bong_item
+
+- Crear el Item "Mechero"

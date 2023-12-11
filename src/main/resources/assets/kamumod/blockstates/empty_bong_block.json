@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "kamumod:block/empty_bong_block",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "kamumod:block/empty_bong_block",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "kamumod:block/empty_bong_block"
+    },
+    "facing=west": {
+      "model": "kamumod:block/empty_bong_block",
+      "y": 90
+    }
+  }
+}

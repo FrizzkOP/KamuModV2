@@ -22,12 +22,15 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> BLOQUE_HACHIS = registerBlock("bloque_hachis",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.MUD).strength(1.0F).sound(SoundType.MUD_BRICKS)));
-
     public static final RegistryObject<Block> FARDO_HACHIS = registerBlock("fardo_hachis",
             () -> new FardoHachisBlock(BlockBehaviour.Properties.copy(Blocks.DIRT).noOcclusion().sound(SoundType.STONE)));
-
     public static final RegistryObject<Block> SMOKER_TABLE = registerBlock("smoker_table",
             () -> new SmokerTableBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()));
+    public static final RegistryObject<Block> EMPTY_BONG = registerBlock("empty_bong_block",
+            () -> new EmptyBongBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion()));
+
+    public static final RegistryObject<Block> FILLED_BONG = registerBlock("filled_bong_block",
+            () -> new FilledBongBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion()));
     public static final RegistryObject<Block> XBOX360 = registerBlock("xbox360",
             () -> new Xbox360Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()));
 
