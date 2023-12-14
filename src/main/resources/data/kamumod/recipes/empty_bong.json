@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "G G",
+    "YWY",
+    "RRR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:red_stained_glass"
+    },
+    "G": {
+        "item": "minecraft:green_stained_glass"
+    },
+    "Y": {
+      "item": "minecraft:yellow_stained_glass"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "kamumod:empty_bong_item"
+  }
+}

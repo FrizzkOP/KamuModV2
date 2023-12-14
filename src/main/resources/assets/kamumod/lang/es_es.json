@@ -19,14 +19,17 @@
   "item.kamumod.rolling_paper_booklet": "Libreto de papel de liar",
   "item.kamumod.empty_bong_item": "Bong vacio",
   "item.kamumod.filled_bong_item": "Bong con marihuana",
+  "item.kamumod.lighter": "Mechero",
 
 
   "item.kamumod.weed_brownie": "Brownie de marihuana",
   "item.kamumod.half_weed_brownie": "Medio brownie de marihuana",
   "item.kamumod.weed_brownie_dough": "Masa de brownie de marihuana",
+  "item.kamumod.alucinogen_mushrooms": "Setas alucinogenas",
 
   "item.kamumod.tobacco_seeds": "Semillas de tabaco",
   "item.kamumod.weed_seeds": "Semillas de marihuana",
+  "item.kamumod.alucinogen_mushroom_seeds": "Semillas de hongo alucinogeno",
 
   "block.kamumod.bloque_hachis": "Bloque de hachis",
   "block.kamumod.fardo_hachis": "Fardo de hachis",
@@ -37,6 +40,8 @@
 
   "block.kamumod.tobacco_crop": "Cultivo de tabaco",
   "block.kamumod.weed_crop": "Cultivo de marihuana",
+  "block.kamumod.alucinogen_mushroom_crop": "Cultivo de hongo alucinogeno",
 
-  "creativetab.kamu_tab": "Kamu Mod"
+  "creativetab.kamu_weed_tab": "Kamu Weed",
+  "creativetab.kamu_consoles_tab": "Kamu Consolas"
 }

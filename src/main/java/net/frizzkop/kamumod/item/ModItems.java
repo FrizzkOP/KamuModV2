@@ -40,6 +40,7 @@ public class ModItems {
     public static final RegistryObject<Item> ROLLING_PAPER_BOOKLET = ITEMS.register("rolling_paper_booklet", () -> new RollingPaperBookletItem(new Item.Properties().durability(18)));
     public static final RegistryObject<Item> EMPTY_BONG = ITEMS.register("empty_bong_item", () -> new EmptyBongItem(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> FILLED_BONG = ITEMS.register("filled_bong_item", () -> new FilledBongItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> LIGHTER = ITEMS.register("lighter", () -> new Item(new Item.Properties().stacksTo(1).durability(25)));
 
 
     // ARMORS
@@ -54,11 +55,13 @@ public class ModItems {
     public static final RegistryObject<Item> WEED_BROWNIE = ITEMS.register("weed_brownie", () -> new Item(new Item.Properties().food(ModFoods.WEED_BROWNIE).stacksTo(16)));
     public static final RegistryObject<Item> HALF_WEED_BROWNIE = ITEMS.register("half_weed_brownie", () -> new Item(new Item.Properties().food(ModFoods.HALF_WEED_BROWNIE).stacksTo(16)));
     public static final RegistryObject<Item> WEED_BROWNIE_DOUGH = ITEMS.register("weed_brownie_dough", () -> new Item(new Item.Properties().food(ModFoods.WEED_BROWNIE_DOUGH).stacksTo(16)));
+    public static final RegistryObject<Item> ALUCINOGEN_MUSHROOMS = ITEMS.register("alucinogen_mushrooms", () -> new Item(new Item.Properties().food(ModFoods.ALUCINOGEN_MUSHROOMS).stacksTo(16)));
 
 
     // SEEDS
     public static final RegistryObject<Item> TOBACCO_SEEDS = ITEMS.register("tobacco_seeds", () -> new ItemNameBlockItem(ModBlocks.TOBACCO_CROP.get(),new Item.Properties()));
     public static final RegistryObject<Item> WEED_SEEDS = ITEMS.register("weed_seeds", () -> new ItemNameBlockItem(ModBlocks.WEED_CROP.get(),new Item.Properties()));
+    public static final RegistryObject<Item> ALUCINOGEN_MUSHROOM_SEEDS = ITEMS.register("alucinogen_mushroom_seeds", () -> new ItemNameBlockItem(ModBlocks.ALUCINOGEN_MUSHROOM_CROP.get(),new Item.Properties()));
 
 
     // El ArrayList "ITEMS" que hemos creado tambien necesita ser registrado, lo hacemos de la siguiente manera

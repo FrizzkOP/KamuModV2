@@ -21,4 +21,13 @@ public class ModFoods {
             .effect(() -> new MobEffectInstance(MobEffects.CONFUSION,300), 1.0f)
             .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN,600), 1.0f)
             .build();
+
+    public static final FoodProperties ALUCINOGEN_MUSHROOMS = new FoodProperties.Builder().nutrition(3).saturationMod(0.2f)
+            .effect(() -> new MobEffectInstance(MobEffects.CONFUSION,300), 1.0f)
+            .effect(() -> new MobEffectInstance(MobEffects.BLINDNESS,200), 1.0f)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN,400), 1.0f)
+            .effect(() -> new MobEffectInstance(MobEffects.HUNGER,600), 0.3f)
+            .effect(() -> new MobEffectInstance(MobEffects.REGENERATION,300), 1.0f)
+            .alwaysEat()
+            .build();
 }

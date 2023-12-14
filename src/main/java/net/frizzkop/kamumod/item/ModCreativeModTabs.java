@@ -16,8 +16,8 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, KamuMod.MOD_ID);
 
     // Creamos la pestanya y le asignamos los items que queremos que contenga
-    public static final RegistryObject<CreativeModeTab> KAMU_TAB = CREATIVE_MODE_TABS.register("kamu_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.PORRITO_MARIHUANA.get()))
-            .title(Component.translatable("creativetab.kamu_tab"))
+    public static final RegistryObject<CreativeModeTab> KAMU_WEED_TAB = CREATIVE_MODE_TABS.register("kamu_weed_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.PORRITO_MARIHUANA.get()))
+            .title(Component.translatable("creativetab.kamu_weed_tab"))
             .displayItems((pParameters, pOutput) -> {
                 pOutput.accept(ModItems.PLACA_HACHIS.get());
                 pOutput.accept(ModItems.MEDIA_PLACA_HACHIS.get());
@@ -39,19 +39,30 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModItems.ROLLING_PAPER_BOOKLET.get());
                 pOutput.accept(ModItems.EMPTY_BONG.get());
                 pOutput.accept(ModItems.FILLED_BONG.get());
+                pOutput.accept(ModItems.LIGHTER.get());
 
 
                 pOutput.accept(ModItems.WEED_BROWNIE.get());
                 pOutput.accept(ModItems.HALF_WEED_BROWNIE.get());
                 pOutput.accept(ModItems.WEED_BROWNIE_DOUGH.get());
+                pOutput.accept(ModItems.ALUCINOGEN_MUSHROOMS.get());
 
                 pOutput.accept(ModItems.TOBACCO_SEEDS.get());
                 pOutput.accept(ModItems.WEED_SEEDS.get());
+                pOutput.accept(ModItems.ALUCINOGEN_MUSHROOM_SEEDS.get());
 
                 pOutput.accept(ModBlocks.BLOQUE_HACHIS.get());
                 pOutput.accept(ModBlocks.FARDO_HACHIS.get());
                 pOutput.accept(ModBlocks.SMOKER_TABLE.get());
                 pOutput.accept(ModBlocks.XBOX360.get());
+            })
+            .build());
+
+    public static final RegistryObject<CreativeModeTab> KAMU_CONSOLES_TAB = CREATIVE_MODE_TABS.register("kamu_consoles_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.XBOX360.get()))
+            .title(Component.translatable("creativetab.kamu_consoles_tab"))
+            .displayItems((pParameters, pOutput) -> {
+                pOutput.accept(ModBlocks.XBOX360.get());
+
             })
             .build());
 

@@ -89,7 +89,7 @@ public class FilledBongItem extends Item {
     public InteractionResultHolder<ItemStack> use(Level pLevel, Player pPlayer, InteractionHand pHand) {
         ItemStack itemstack = pPlayer.getItemInHand(pHand);
 
-        if(pPlayer.getItemInHand(InteractionHand.OFF_HAND).getItem().equals(Items.FLINT_AND_STEEL)) {
+        if(pPlayer.getItemInHand(InteractionHand.OFF_HAND).getItem().equals(ModItems.LIGHTER.get())) {
             pPlayer.startUsingItem(pHand);
             pPlayer.playSound(SoundEvents.FIRE_AMBIENT, 0.5F, 1.0F);
         }else{

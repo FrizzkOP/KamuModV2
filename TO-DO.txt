@@ -1,4 +1,26 @@
-- Añadir receta para xbox360
-- Añadir receta para empty_bong_item
 
-- Crear el Item "Mechero"
+-- RECETAS --
+- Añadir receta para xbox360
+
+-- CONSOLAS Y VIDEOJUEGOS--
+- Crear Nintendo Switch
+- Crear Nintendo DS (Original/Lite)
+- Crear Ordenador Gaming
+- Crear Gameboy SP
+- Crear Gameboy Color
+- Crear Playstation 1/2/3/4/5
+- Crear Xbox Series X
+- Crear Gamecube
+
+- Crear item motherboard
+
+- Crear Juego Playstation 1/2/3/4/5
+- Crear Juego Xbox
+- Crear Juego Nintendo
+- Crear juego Gamecube
+- Crear juego Nintendo Switch
+
+-- WEED RELATED ITEMS --
+- Crear fertilizante
+- Crear bascula
+- Crear cuchillo (Con funciones para el hachis)

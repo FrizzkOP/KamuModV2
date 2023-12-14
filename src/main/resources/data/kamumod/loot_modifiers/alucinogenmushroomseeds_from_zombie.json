@@ -1,0 +1,14 @@
+{
+  "type": "kamumod:add_item",
+  "conditions": [
+    {
+      "loot_table_id": "minecraft:entities/zombie",
+      "condition": "forge:loot_table_id"
+    },
+    {
+      "chance": 0.10,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "kamumod:alucinogen_mushroom_seeds"
+}

@@ -1,7 +1,9 @@
 package net.frizzkop.kamumod.item.custom;
 
 
+import net.frizzkop.kamumod.item.ModItems;
 import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
@@ -28,6 +30,8 @@ public class PorritoHachisItem extends Item {
                 pPlayer.addEffect(new MobEffectInstance(MobEffects.CONFUSION,300));
                 pPlayer.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED,700));
                 pPlayer.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED,1200));
+
+                pPlayer.getItemInHand(InteractionHand.OFF_HAND).hurtAndBreak(1,pPlayer, player -> player.broadcastBreakEvent(InteractionHand.OFF_HAND));
             }
         }
         for(int i = 0 ; i < 10 ; i++) {
@@ -52,10 +56,14 @@ public class PorritoHachisItem extends Item {
     @Override
     public InteractionResultHolder<ItemStack> use(Level pLevel, Player pPlayer, InteractionHand pHand) {
         ItemStack itemstack = pPlayer.getItemInHand(pHand);
-        if(!pLevel.isClientSide) {
+
+        if(pPlayer.getItemInHand(InteractionHand.OFF_HAND).getItem().equals(ModItems.LIGHTER.get())) {
             pPlayer.startUsingItem(pHand);
+            pPlayer.playSound(SoundEvents.FIRE_AMBIENT, 0.5F, 1.0F);
+        }else{
+            pPlayer.displayClientMessage(Component.literal("Necesitas un mechero para encenderte el porrito"), true);
         }
-        pPlayer.playSound(SoundEvents.FIRE_AMBIENT, 0.5F, 1.0F);
+
         return InteractionResultHolder.consume(itemstack);
     }
 }

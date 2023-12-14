@@ -1,7 +1,8 @@
 {
   "entries": [
     "kamumod:weedseeds_from_grass",
-    "kamumod:tobaccoseeds_from_grass"
+    "kamumod:tobaccoseeds_from_grass",
+    "kamumod:alucinogenmushroomseeds_from_zombie"
   ],
   "replace": false
 }
