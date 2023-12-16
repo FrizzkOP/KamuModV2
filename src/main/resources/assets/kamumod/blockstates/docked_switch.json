@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "kamumod:block/docked_switch",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "kamumod:block/docked_switch",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "kamumod:block/docked_switch"
+    },
+    "facing=west": {
+      "model": "kamumod:block/docked_switch",
+      "y": 90
+    }
+  }
+}

@@ -43,6 +43,10 @@ public class ModItems {
     public static final RegistryObject<Item> LIGHTER = ITEMS.register("lighter", () -> new Item(new Item.Properties().stacksTo(1).durability(25)));
 
 
+    // CONSOLES
+    public static final RegistryObject<Item> SWITCH = ITEMS.register("switch", () -> new SwitchItem(new Item.Properties().stacksTo(1)));
+
+
     // ARMORS
 
 

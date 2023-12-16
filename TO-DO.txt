@@ -1,14 +1,19 @@
-
 -- RECETAS --
+
 - Añadir receta para xbox360
+- Añadir receta para ps1
+- Añadir receta para switch_dock
+- Añadir receta para switch
+
+
 
 -- CONSOLAS Y VIDEOJUEGOS--
-- Crear Nintendo Switch
+
 - Crear Nintendo DS (Original/Lite)
 - Crear Ordenador Gaming
 - Crear Gameboy SP
 - Crear Gameboy Color
-- Crear Playstation 1/2/3/4/5
+- Crear Playstation 2/3/4/5
 - Crear Xbox Series X
 - Crear Gamecube
 
@@ -20,7 +25,10 @@
 - Crear juego Gamecube
 - Crear juego Nintendo Switch
 
+
+
 -- WEED RELATED ITEMS --
+
 - Crear fertilizante
 - Crear bascula
 - Crear cuchillo (Con funciones para el hachis)

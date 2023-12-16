@@ -54,14 +54,20 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModBlocks.BLOQUE_HACHIS.get());
                 pOutput.accept(ModBlocks.FARDO_HACHIS.get());
                 pOutput.accept(ModBlocks.SMOKER_TABLE.get());
-                pOutput.accept(ModBlocks.XBOX360.get());
+
+
             })
             .build());
 
-    public static final RegistryObject<CreativeModeTab> KAMU_CONSOLES_TAB = CREATIVE_MODE_TABS.register("kamu_consoles_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.XBOX360.get()))
-            .title(Component.translatable("creativetab.kamu_consoles_tab"))
+    public static final RegistryObject<CreativeModeTab> KAMU_DECO_TAB = CREATIVE_MODE_TABS.register("kamu_deco_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.PS1.get()))
+            .title(Component.translatable("creativetab.kamu_deco_tab"))
             .displayItems((pParameters, pOutput) -> {
+                pOutput.accept(ModItems.SWITCH.get());
+
                 pOutput.accept(ModBlocks.XBOX360.get());
+                pOutput.accept(ModBlocks.PS1.get());
+                pOutput.accept(ModBlocks.SWITCH_DOCK.get());
+                pOutput.accept(ModBlocks.DOCKED_SWITCH.get());
 
             })
             .build());

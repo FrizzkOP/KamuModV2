@@ -31,8 +31,17 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> FILLED_BONG = registerBlock("filled_bong_block",
             () -> new FilledBongBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion()));
+
+    // CONSOLES
     public static final RegistryObject<Block> XBOX360 = registerBlock("xbox360",
             () -> new Xbox360Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()));
+    public static final RegistryObject<Block> PS1 = registerBlock("ps1",
+            () -> new Ps1Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()));
+    public static final RegistryObject<Block> SWITCH_DOCK = registerBlock("switch_dock",
+            () -> new SwitchDockBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()));
+
+    public static final RegistryObject<Block> DOCKED_SWITCH = registerBlock("docked_switch",
+            () -> new DockedSwitchBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()));
 
     // CROPS
     public static final RegistryObject<Block> TOBACCO_CROP = BLOCKS.register("tobacco_crop", () -> new TobaccoCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
@@ -50,6 +59,7 @@ public class ModBlocks {
     private static <T extends Block>RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block){
         return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
+
 
     public static void register(IEventBus eventBus){
         BLOCKS.register(eventBus);

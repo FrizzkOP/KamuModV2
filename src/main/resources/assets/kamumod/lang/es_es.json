@@ -36,12 +36,18 @@
   "block.kamumod.smoker_table": "Mesa del fumador",
   "block.kamumod.empty_bong_block": "Bong vacio",
   "block.kamumod.filled_bong_block": "Bong con marihuana",
+
+
   "block.kamumod.xbox360": "Xbox 360",
+  "block.kamumod.ps1": "Playstation 1",
+  "block.kamumod.switch_dock": "Dock de Switch",
+  "block.kamumod.docked_switch": "Switch con Dock",
+  "item.kamumod.switch": "Nintendo Switch",
 
   "block.kamumod.tobacco_crop": "Cultivo de tabaco",
   "block.kamumod.weed_crop": "Cultivo de marihuana",
   "block.kamumod.alucinogen_mushroom_crop": "Cultivo de hongo alucinogeno",
 
   "creativetab.kamu_weed_tab": "Kamu Weed",
-  "creativetab.kamu_consoles_tab": "Kamu Consolas"
+  "creativetab.kamu_deco_tab": "Kamu Decoracion"
 }
