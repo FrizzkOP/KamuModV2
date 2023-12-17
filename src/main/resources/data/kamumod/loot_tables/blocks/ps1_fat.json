@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "kamumod:ps1"
+          "name": "kamumod:ps1_fat"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "kamumod:blocks/ps1"
+  "random_sequence": "kamumod:blocks/ps1_fat"
 }

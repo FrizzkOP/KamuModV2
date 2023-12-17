@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WGW",
+    "WMW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "M": {
+      "item": "kamumod:motherboard"
+    },
+    "G": {
+      "item": "minecraft:light_gray_wool"
+    }
+  },
+  "result": {
+    "item": "kamumod:xbox360"
+  }
+}

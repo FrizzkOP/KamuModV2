@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BWR",
+    "BMR",
+    "BWR"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:light_blue_wool"
+    },
+    "M": {
+      "item": "kamumod:motherboard"
+    },
+    "R": {
+      "item": "minecraft:red_wool"
+    },
+    "W": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "result": {
+    "item": "kamumod:switch"
+  }
+}

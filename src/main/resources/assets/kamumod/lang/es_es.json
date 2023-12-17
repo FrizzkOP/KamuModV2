@@ -3,6 +3,7 @@
   "item.kamumod.media_placa_hachis": "Media placa de hachis",
   "item.kamumod.bola_hachis": "Bola de hachis",
   "item.kamumod.weed_bud": "Cogollo de marihuana",
+  "item.kamumod.weed_leaf": "Hoja de marihuana",
   "item.kamumod.grinded_weed": "Marihuana picada",
   "item.kamumod.porrito_marihuana": "Porrito de marihuana",
   "item.kamumod.porrito_hachis": "Porrito de hachis",
@@ -20,7 +21,11 @@
   "item.kamumod.empty_bong_item": "Bong vacio",
   "item.kamumod.filled_bong_item": "Bong con marihuana",
   "item.kamumod.lighter": "Mechero",
+  "item.kamumod.weed_diamond_ingot": "Lingote de Yerbamante",
+  "item.kamumod.motherboard": "Placa Base",
 
+  "item.kamumod.weed_sword_handle": "Mango de Mandoble de Yerbamante",
+  "item.kamumod.weed_sword": "Mandoble de Yerbamante",
 
   "item.kamumod.weed_brownie": "Brownie de marihuana",
   "item.kamumod.half_weed_brownie": "Medio brownie de marihuana",
@@ -39,7 +44,7 @@
 
 
   "block.kamumod.xbox360": "Xbox 360",
-  "block.kamumod.ps1": "Playstation 1",
+  "block.kamumod.ps1_fat": "Playstation 1 Original",
   "block.kamumod.ps2": "Playstation 2",
   "block.kamumod.ps3": "Playstation 3",
   "block.kamumod.ps4": "Playstation 4",
@@ -54,5 +59,6 @@
   "block.kamumod.alucinogen_mushroom_crop": "Cultivo de hongo alucinogeno",
 
   "creativetab.kamu_weed_tab": "Kamu Weed",
-  "creativetab.kamu_deco_tab": "Kamu Decoracion"
+  "creativetab.kamu_deco_tab": "Kamu Decoracion",
+  "creativetab.kamu_equip_tab": "Kamu Equipo"
 }

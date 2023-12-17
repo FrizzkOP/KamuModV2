@@ -1,19 +1,7 @@
 -- RECETAS --
 
-- Añadir receta para xbox360
-- Añadir receta para ps1
-- Añadir receta para ps2
-- Añadir receta para ps3
-- Añadir receta para ps4
-- Añadir receta para ps5
-- Añadir receta para switch_dock
-- Añadir receta para switch
-
-
 
 -- CONSOLAS Y VIDEOJUEGOS--
-
-- Implementar gamecube
 
 - Crear Nintendo DS (Original/Lite)
 - Crear Ordenador Gaming
@@ -21,7 +9,6 @@
 - Crear Gameboy Color
 - Crear Xbox Series X
 
-- Crear item motherboard
 
 - Crear Juego Playstation 1/2/3/4/5
 - Crear Juego Xbox
@@ -38,6 +25,7 @@
 - Crear cuchillo (Con funciones para el hachis)
 
 -- WEED SET --
+
 - Crear armadura completa
 - Crear herramientas de marihuana
-- Crear armas de marihuana
+- Crear armas de Yerbamante (Daga / Hacha / Garrote)

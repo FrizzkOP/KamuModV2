@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WWW",
+    "BMB",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:gray_wool"
+    },
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "M": {
+      "item": "kamumod:motherboard"
+    }
+  },
+  "result": {
+    "item": "kamumod:ps4"
+  }
+}

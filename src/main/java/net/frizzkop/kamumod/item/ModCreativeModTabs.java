@@ -23,6 +23,7 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModItems.MEDIA_PLACA_HACHIS.get());
                 pOutput.accept(ModItems.BOLA_HACHIS.get());
                 pOutput.accept(ModItems.WEED_BUD.get());
+                pOutput.accept(ModItems.WEED_LEAF.get());
                 pOutput.accept(ModItems.GRINDED_WEED.get());
                 pOutput.accept(ModItems.PORRITO_MARIHUANA.get());
                 pOutput.accept(ModItems.PORRITO_HACHIS.get());
@@ -40,6 +41,7 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModItems.EMPTY_BONG.get());
                 pOutput.accept(ModItems.FILLED_BONG.get());
                 pOutput.accept(ModItems.LIGHTER.get());
+                pOutput.accept(ModItems.WEED_DIAMOND_INGOT.get());
 
 
                 pOutput.accept(ModItems.WEED_BROWNIE.get());
@@ -59,13 +61,13 @@ public class ModCreativeModTabs {
             })
             .build());
 
-    public static final RegistryObject<CreativeModeTab> KAMU_DECO_TAB = CREATIVE_MODE_TABS.register("kamu_deco_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.PS1.get()))
+    public static final RegistryObject<CreativeModeTab> KAMU_DECO_TAB = CREATIVE_MODE_TABS.register("kamu_deco_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.PS1_FAT.get()))
             .title(Component.translatable("creativetab.kamu_deco_tab"))
             .displayItems((pParameters, pOutput) -> {
                 pOutput.accept(ModItems.SWITCH.get());
-
+                pOutput.accept(ModItems.MOTHERBOARD.get());
                 pOutput.accept(ModBlocks.XBOX360.get());
-                pOutput.accept(ModBlocks.PS1.get());
+                pOutput.accept(ModBlocks.PS1_FAT.get());
                 pOutput.accept(ModBlocks.PS2.get());
                 pOutput.accept(ModBlocks.PS3.get());
                 pOutput.accept(ModBlocks.PS4.get());
@@ -73,6 +75,15 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModBlocks.SWITCH_DOCK.get());
                 pOutput.accept(ModBlocks.DOCKED_SWITCH.get());
                 pOutput.accept(ModBlocks.GAMECUBE.get());
+
+            })
+            .build());
+
+    public static final RegistryObject<CreativeModeTab> KAMU_EQUIP_TAB = CREATIVE_MODE_TABS.register("kamu_equip_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.WEED_SWORD.get()))
+            .title(Component.translatable("creativetab.kamu_equip_tab"))
+            .displayItems((pParameters, pOutput) -> {
+                pOutput.accept(ModItems.WEED_SWORD_HANDLE.get());
+                pOutput.accept(ModItems.WEED_SWORD.get());
 
             })
             .build());

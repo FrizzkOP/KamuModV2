@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LLL",
+    " S ",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "kamumod:grinder"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "L": {
+      "item": "kamumod:weed_leaf"
+    }
+  },
+  "result": {
+    "item": "kamumod:weed_sword_handle",
+    "count": 1
+  }
+}

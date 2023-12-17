@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    " I ",
+    " H "
+  ],
+  "key": {
+    "H": {
+      "item": "kamumod:weed_sword_handle"
+    },
+    "I": {
+      "item": "kamumod:weed_diamond_ingot"
+    }
+  },
+  "result": {
+    "item": "kamumod:weed_sword",
+    "count": 1
+  }
+}

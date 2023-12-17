@@ -12,10 +12,10 @@ import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
-public class Ps1Block extends Block {
+public class Ps1FatBlock extends Block {
     public static final VoxelShape SHAPE = Block.box(3,0,3, 13, 4, 13);
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
-    public Ps1Block(Properties pProperties) {
+    public Ps1FatBlock(Properties pProperties) {
         super(pProperties);
     }
 

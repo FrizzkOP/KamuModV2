@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=east": {
-      "model": "kamumod:block/ps1",
+      "model": "kamumod:block/ps1_fat",
       "y": 270
     },
     "facing=north": {
-      "model": "kamumod:block/ps1",
+      "model": "kamumod:block/ps1_fat",
       "y": 180
     },
     "facing=south": {
-      "model": "kamumod:block/ps1"
+      "model": "kamumod:block/ps1_fat"
     },
     "facing=west": {
-      "model": "kamumod:block/ps1",
+      "model": "kamumod:block/ps1_fat",
       "y": 90
     }
   }

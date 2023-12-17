@@ -5,6 +5,7 @@ import net.frizzkop.kamumod.block.ModBlocks;
 import net.frizzkop.kamumod.item.custom.*;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
+import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -24,6 +25,7 @@ public class ModItems {
     public static final RegistryObject<Item> MEDIA_PLACA_HACHIS = ITEMS.register("media_placa_hachis", () -> new Item(new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> BOLA_HACHIS = ITEMS.register("bola_hachis", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WEED_BUD = ITEMS.register("weed_bud", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WEED_LEAF = ITEMS.register("weed_leaf", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> GRINDED_WEED = ITEMS.register("grinded_weed", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> PORRITO_MARIHUANA = ITEMS.register("porrito_marihuana", () -> new PorritoMarihuanaItem(new Item.Properties().durability(4)));
     public static final RegistryObject<Item> PORRITO_HACHIS = ITEMS.register("porrito_hachis", () -> new PorritoHachisItem(new Item.Properties().durability(4)));
@@ -41,6 +43,8 @@ public class ModItems {
     public static final RegistryObject<Item> EMPTY_BONG = ITEMS.register("empty_bong_item", () -> new EmptyBongItem(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> FILLED_BONG = ITEMS.register("filled_bong_item", () -> new FilledBongItem(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> LIGHTER = ITEMS.register("lighter", () -> new Item(new Item.Properties().stacksTo(1).durability(25)));
+    public static final RegistryObject<Item> WEED_DIAMOND_INGOT = ITEMS.register("weed_diamond_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MOTHERBOARD = ITEMS.register("motherboard", () -> new Item(new Item.Properties()));
 
 
     // CONSOLES
@@ -53,7 +57,8 @@ public class ModItems {
 
 
     // TOOLS
-
+    public static final RegistryObject<Item> WEED_SWORD_HANDLE = ITEMS.register("weed_sword_handle", () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> WEED_SWORD = ITEMS.register("weed_sword", () -> new SwordItem(ModToolTiers.WEED, 6, -3F, new Item.Properties()));
 
     // FOOD
     public static final RegistryObject<Item> WEED_BROWNIE = ITEMS.register("weed_brownie", () -> new Item(new Item.Properties().food(ModFoods.WEED_BROWNIE).stacksTo(16)));

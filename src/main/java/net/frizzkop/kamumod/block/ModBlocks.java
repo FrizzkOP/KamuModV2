@@ -35,8 +35,8 @@ public class ModBlocks {
     // CONSOLES
     public static final RegistryObject<Block> XBOX360 = registerBlock("xbox360",
             () -> new Xbox360Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()),1);
-    public static final RegistryObject<Block> PS1 = registerBlock("ps1",
-            () -> new Ps1Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()),1);
+    public static final RegistryObject<Block> PS1_FAT = registerBlock("ps1_fat",
+            () -> new Ps1FatBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()),1);
     public static final RegistryObject<Block> PS2 = registerBlock("ps2",
             () -> new Ps2Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()),1);
     public static final RegistryObject<Block> PS3 = registerBlock("ps3",
