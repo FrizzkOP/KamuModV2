@@ -5,6 +5,7 @@ import net.frizzkop.kamumod.block.ModBlocks;
 import net.frizzkop.kamumod.item.custom.*;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
+import net.minecraft.world.item.ShearsItem;
 import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -59,6 +60,7 @@ public class ModItems {
     // TOOLS
     public static final RegistryObject<Item> WEED_SWORD_HANDLE = ITEMS.register("weed_sword_handle", () -> new Item(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> WEED_SWORD = ITEMS.register("weed_sword", () -> new SwordItem(ModToolTiers.WEED, 6, -3F, new Item.Properties()));
+    public static final RegistryObject<Item> WEED_SHEARS = ITEMS.register("weed_shears", () -> new ShearsItem(new Item.Properties().durability(161)));
 
     // FOOD
     public static final RegistryObject<Item> WEED_BROWNIE = ITEMS.register("weed_brownie", () -> new Item(new Item.Properties().food(ModFoods.WEED_BROWNIE).stacksTo(16)));

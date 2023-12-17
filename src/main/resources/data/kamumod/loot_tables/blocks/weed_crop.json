@@ -51,7 +51,7 @@
                   "condition": "minecraft:match_tool",
                   "predicate": {
                     "items": [
-                      "minecraft:shears"
+                      "kamumod:weed_shears"
                     ]
                   }
                 }
@@ -83,7 +83,7 @@
                   "condition": "minecraft:match_tool",
                   "predicate": {
                     "items": [
-                      "minecraft:shears"
+                      "kamumod:weed_shears"
                     ]
                   }
                 }

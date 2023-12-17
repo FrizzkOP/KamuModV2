@@ -42,6 +42,7 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModItems.FILLED_BONG.get());
                 pOutput.accept(ModItems.LIGHTER.get());
                 pOutput.accept(ModItems.WEED_DIAMOND_INGOT.get());
+                pOutput.accept(ModItems.WEED_SHEARS.get());
 
 
                 pOutput.accept(ModItems.WEED_BROWNIE.get());

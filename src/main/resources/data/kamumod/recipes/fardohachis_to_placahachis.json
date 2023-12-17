@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "kamumod:fardo_hachis"
+    }
+  ],
+  "result": {
+    "item": "kamumod:placa_hachis",
+    "count": 3
+  }
+}

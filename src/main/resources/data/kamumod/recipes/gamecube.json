@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PBP",
+    "LMP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:purple_wool"
+    },
+    "M": {
+      "item": "kamumod:motherboard"
+    },
+    "L": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "B": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "result": {
+    "item": "kamumod:gamecube"
+  }
+}
