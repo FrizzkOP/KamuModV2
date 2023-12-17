@@ -40,8 +40,13 @@
 
   "block.kamumod.xbox360": "Xbox 360",
   "block.kamumod.ps1": "Playstation 1",
+  "block.kamumod.ps2": "Playstation 2",
+  "block.kamumod.ps3": "Playstation 3",
+  "block.kamumod.ps4": "Playstation 4",
+  "block.kamumod.ps5": "Playstation 5",
   "block.kamumod.switch_dock": "Dock de Switch",
   "block.kamumod.docked_switch": "Switch con Dock",
+  "block.kamumod.gamecube": "Gamecube",
   "item.kamumod.switch": "Nintendo Switch",
 
   "block.kamumod.tobacco_crop": "Cultivo de tabaco",

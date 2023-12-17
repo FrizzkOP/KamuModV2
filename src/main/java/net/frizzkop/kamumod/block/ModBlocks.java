@@ -23,9 +23,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> BLOQUE_HACHIS = registerBlock("bloque_hachis",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.MUD).strength(1.0F).sound(SoundType.MUD_BRICKS)));
     public static final RegistryObject<Block> FARDO_HACHIS = registerBlock("fardo_hachis",
-            () -> new FardoHachisBlock(BlockBehaviour.Properties.copy(Blocks.DIRT).noOcclusion().sound(SoundType.STONE)));
+            () -> new FardoHachisBlock(BlockBehaviour.Properties.copy(Blocks.DIRT).noOcclusion().sound(SoundType.STONE)),1);
     public static final RegistryObject<Block> SMOKER_TABLE = registerBlock("smoker_table",
-            () -> new SmokerTableBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()));
+            () -> new SmokerTableBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).noOcclusion()),1);
     public static final RegistryObject<Block> EMPTY_BONG = registerBlock("empty_bong_block",
             () -> new EmptyBongBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion()));
 
@@ -34,14 +34,26 @@ public class ModBlocks {
 
     // CONSOLES
     public static final RegistryObject<Block> XBOX360 = registerBlock("xbox360",
-            () -> new Xbox360Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()));
+            () -> new Xbox360Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()),1);
     public static final RegistryObject<Block> PS1 = registerBlock("ps1",
-            () -> new Ps1Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()));
+            () -> new Ps1Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()),1);
+    public static final RegistryObject<Block> PS2 = registerBlock("ps2",
+            () -> new Ps2Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()),1);
+    public static final RegistryObject<Block> PS3 = registerBlock("ps3",
+            () -> new Ps3Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()),1);
+    public static final RegistryObject<Block> PS4 = registerBlock("ps4",
+            () -> new Ps4Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()),1);
+    public static final RegistryObject<Block> PS5 = registerBlock("ps5",
+            () -> new Ps5Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()),1);
     public static final RegistryObject<Block> SWITCH_DOCK = registerBlock("switch_dock",
-            () -> new SwitchDockBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()));
+            () -> new SwitchDockBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()),1);
 
     public static final RegistryObject<Block> DOCKED_SWITCH = registerBlock("docked_switch",
-            () -> new DockedSwitchBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()));
+            () -> new DockedSwitchBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()),1);
+
+    public static final RegistryObject<Block> GAMECUBE = registerBlock("gamecube",
+            () -> new GamecubeBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noOcclusion()),1);
+
 
     // CROPS
     public static final RegistryObject<Block> TOBACCO_CROP = BLOCKS.register("tobacco_crop", () -> new TobaccoCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
@@ -60,6 +72,15 @@ public class ModBlocks {
         return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
+    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, int maxStackSize){
+        RegistryObject<T> toReturn = BLOCKS.register(name, block);
+        registerStackableBlockItem(name, toReturn, maxStackSize);
+        return toReturn;
+    }
+
+    private static <T extends Block> RegistryObject<Item> registerStackableBlockItem(String name, RegistryObject<T> block, int maxStackSize) {
+        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().stacksTo(maxStackSize)));
+    }
 
     public static void register(IEventBus eventBus){
         BLOCKS.register(eventBus);

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "kamumod:block/ps4",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "kamumod:block/ps4",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "kamumod:block/ps4"
+    },
+    "facing=west": {
+      "model": "kamumod:block/ps4",
+      "y": 90
+    }
+  }
+}

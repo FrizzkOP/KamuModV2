@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "kamumod:block/gamecube",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "kamumod:block/gamecube",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "kamumod:block/gamecube"
+    },
+    "facing=west": {
+      "model": "kamumod:block/gamecube",
+      "y": 90
+    }
+  }
+}

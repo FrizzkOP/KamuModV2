@@ -66,8 +66,13 @@ public class ModCreativeModTabs {
 
                 pOutput.accept(ModBlocks.XBOX360.get());
                 pOutput.accept(ModBlocks.PS1.get());
+                pOutput.accept(ModBlocks.PS2.get());
+                pOutput.accept(ModBlocks.PS3.get());
+                pOutput.accept(ModBlocks.PS4.get());
+                pOutput.accept(ModBlocks.PS5.get());
                 pOutput.accept(ModBlocks.SWITCH_DOCK.get());
                 pOutput.accept(ModBlocks.DOCKED_SWITCH.get());
+                pOutput.accept(ModBlocks.GAMECUBE.get());
 
             })
             .build());
