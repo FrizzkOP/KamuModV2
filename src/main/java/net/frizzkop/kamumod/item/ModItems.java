@@ -3,10 +3,7 @@ package net.frizzkop.kamumod.item;
 import net.frizzkop.kamumod.KamuMod;
 import net.frizzkop.kamumod.block.ModBlocks;
 import net.frizzkop.kamumod.item.custom.*;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemNameBlockItem;
-import net.minecraft.world.item.ShearsItem;
-import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -60,6 +57,9 @@ public class ModItems {
     // TOOLS
     public static final RegistryObject<Item> WEED_SWORD_HANDLE = ITEMS.register("weed_sword_handle", () -> new Item(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> WEED_SWORD = ITEMS.register("weed_sword", () -> new SwordItem(ModToolTiers.WEED, 6, -3F, new Item.Properties()));
+    public static final RegistryObject<Item> WEED_DIAMOND_PICKAXE = ITEMS.register("weed_diamond_pickaxe", () -> new PickaxeItem(ModToolTiers.WEED, 2, -2.8F, new Item.Properties()));
+    public static final RegistryObject<Item> WEED_DIAMOND_AXE = ITEMS.register("weed_diamond_axe", () -> new AxeItem(ModToolTiers.WEED, 7, -3.2F, new Item.Properties()));
+    public static final RegistryObject<Item> WEED_DIAMOND_SHOVEL = ITEMS.register("weed_diamond_shovel", () -> new ShovelItem(ModToolTiers.WEED, 3, -2.8F, new Item.Properties()));
     public static final RegistryObject<Item> WEED_SHEARS = ITEMS.register("weed_shears", () -> new ShearsItem(new Item.Properties().durability(161)));
 
     // FOOD

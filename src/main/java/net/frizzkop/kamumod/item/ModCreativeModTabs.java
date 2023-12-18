@@ -85,6 +85,9 @@ public class ModCreativeModTabs {
             .displayItems((pParameters, pOutput) -> {
                 pOutput.accept(ModItems.WEED_SWORD_HANDLE.get());
                 pOutput.accept(ModItems.WEED_SWORD.get());
+                pOutput.accept(ModItems.WEED_DIAMOND_AXE.get());
+                pOutput.accept(ModItems.WEED_DIAMOND_PICKAXE.get());
+                pOutput.accept(ModItems.WEED_DIAMOND_SHOVEL.get());
 
             })
             .build());

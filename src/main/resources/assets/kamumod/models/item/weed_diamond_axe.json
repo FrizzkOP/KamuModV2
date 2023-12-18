@@ -1,0 +1,337 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "kamumod:item/weed_diamond_axe",
+		"particle": "kamumod:item/weed_diamond_axe"
+	},
+	"elements": [
+		{
+			"name": "weed_diamond_axe_0",
+			"from": [7, 13, 7.5],
+			"to": [10, 16, 8.5],
+			"faces": {
+				"north": {"uv": [10, 0, 7, 3], "texture": "#0"},
+				"east": {"uv": [9, 0, 10, 3], "texture": "#0"},
+				"south": {"uv": [7, 0, 10, 3], "texture": "#0"},
+				"west": {"uv": [7, 0, 8, 3], "texture": "#0"},
+				"up": {"uv": [7, 0, 10, 1], "texture": "#0"},
+				"down": {"uv": [7, 2, 10, 3], "texture": "#0"}
+			}
+		},
+		{
+			"name": "weed_diamond_axe_1",
+			"from": [5, 10, 7.5],
+			"to": [7, 15, 8.5],
+			"faces": {
+				"north": {"uv": [7, 1, 5, 6], "texture": "#0"},
+				"east": {"uv": [6, 1, 7, 6], "texture": "#0"},
+				"south": {"uv": [5, 1, 7, 6], "texture": "#0"},
+				"west": {"uv": [5, 1, 6, 6], "texture": "#0"},
+				"up": {"uv": [5, 1, 7, 2], "texture": "#0"},
+				"down": {"uv": [5, 5, 7, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "weed_diamond_axe_2",
+			"from": [4, 9, 7.5],
+			"to": [5, 14, 8.5],
+			"faces": {
+				"north": {"uv": [5, 2, 4, 7], "texture": "#0"},
+				"east": {"uv": [4, 2, 5, 7], "texture": "#0"},
+				"south": {"uv": [4, 2, 5, 7], "texture": "#0"},
+				"west": {"uv": [4, 2, 5, 7], "texture": "#0"},
+				"up": {"uv": [4, 2, 5, 3], "texture": "#0"},
+				"down": {"uv": [4, 6, 5, 7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "weed_diamond_axe_3",
+			"from": [7, 10, 7.5],
+			"to": [9, 13, 8.5],
+			"faces": {
+				"north": {"uv": [9, 3, 7, 6], "texture": "#0"},
+				"east": {"uv": [8, 3, 9, 6], "texture": "#0"},
+				"south": {"uv": [7, 3, 9, 6], "texture": "#0"},
+				"west": {"uv": [7, 3, 8, 6], "texture": "#0"},
+				"up": {"uv": [7, 3, 9, 4], "texture": "#0"},
+				"down": {"uv": [7, 5, 9, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "weed_diamond_axe_4",
+			"from": [10, 3, 7.5],
+			"to": [12, 13, 8.5],
+			"faces": {
+				"north": {"uv": [12, 3, 10, 13], "texture": "#0"},
+				"east": {"uv": [11, 3, 12, 13], "texture": "#0"},
+				"south": {"uv": [10, 3, 12, 13], "texture": "#0"},
+				"west": {"uv": [10, 3, 11, 13], "texture": "#0"},
+				"up": {"uv": [10, 3, 12, 4], "texture": "#0"},
+				"down": {"uv": [10, 12, 12, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "weed_diamond_axe_5",
+			"from": [3, 9, 7.5],
+			"to": [4, 12, 8.5],
+			"faces": {
+				"north": {"uv": [4, 4, 3, 7], "texture": "#0"},
+				"east": {"uv": [3, 4, 4, 7], "texture": "#0"},
+				"south": {"uv": [3, 4, 4, 7], "texture": "#0"},
+				"west": {"uv": [3, 4, 4, 7], "texture": "#0"},
+				"up": {"uv": [3, 4, 4, 5], "texture": "#0"},
+				"down": {"uv": [3, 6, 4, 7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "weed_diamond_axe_6",
+			"from": [9, 8, 7.5],
+			"to": [10, 12, 8.5],
+			"faces": {
+				"north": {"uv": [10, 4, 9, 8], "texture": "#0"},
+				"east": {"uv": [9, 4, 10, 8], "texture": "#0"},
+				"south": {"uv": [9, 4, 10, 8], "texture": "#0"},
+				"west": {"uv": [9, 4, 10, 8], "texture": "#0"},
+				"up": {"uv": [9, 4, 10, 5], "texture": "#0"},
+				"down": {"uv": [9, 7, 10, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "weed_diamond_axe_7",
+			"from": [12, 10, 7.5],
+			"to": [13, 12, 8.5],
+			"faces": {
+				"north": {"uv": [13, 4, 12, 6], "texture": "#0"},
+				"east": {"uv": [12, 4, 13, 6], "texture": "#0"},
+				"south": {"uv": [12, 4, 13, 6], "texture": "#0"},
+				"west": {"uv": [12, 4, 13, 6], "texture": "#0"},
+				"up": {"uv": [12, 4, 13, 5], "texture": "#0"},
+				"down": {"uv": [12, 5, 13, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "weed_diamond_axe_8",
+			"from": [5, 9, 7.5],
+			"to": [6, 10, 8.5],
+			"faces": {
+				"north": {"uv": [6, 6, 5, 7], "texture": "#0"},
+				"east": {"uv": [5, 6, 6, 7], "texture": "#0"},
+				"south": {"uv": [5, 6, 6, 7], "texture": "#0"},
+				"west": {"uv": [5, 6, 6, 7], "texture": "#0"},
+				"up": {"uv": [5, 6, 6, 7], "texture": "#0"},
+				"down": {"uv": [5, 6, 6, 7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "weed_diamond_axe_9",
+			"from": [8, 7, 7.5],
+			"to": [9, 10, 8.5],
+			"faces": {
+				"north": {"uv": [9, 6, 8, 9], "texture": "#0"},
+				"east": {"uv": [8, 6, 9, 9], "texture": "#0"},
+				"south": {"uv": [8, 6, 9, 9], "texture": "#0"},
+				"west": {"uv": [8, 6, 9, 9], "texture": "#0"},
+				"up": {"uv": [8, 6, 9, 7], "texture": "#0"},
+				"down": {"uv": [8, 8, 9, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "weed_diamond_axe_10",
+			"from": [13, 7, 7.5],
+			"to": [16, 10, 8.5],
+			"faces": {
+				"north": {"uv": [16, 6, 13, 9], "texture": "#0"},
+				"east": {"uv": [15, 6, 16, 9], "texture": "#0"},
+				"south": {"uv": [13, 6, 16, 9], "texture": "#0"},
+				"west": {"uv": [13, 6, 14, 9], "texture": "#0"},
+				"up": {"uv": [13, 6, 16, 7], "texture": "#0"},
+				"down": {"uv": [13, 8, 16, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "weed_diamond_axe_11",
+			"from": [7, 6, 7.5],
+			"to": [8, 9, 8.5],
+			"faces": {
+				"north": {"uv": [8, 7, 7, 10], "texture": "#0"},
+				"east": {"uv": [7, 7, 8, 10], "texture": "#0"},
+				"south": {"uv": [7, 7, 8, 10], "texture": "#0"},
+				"west": {"uv": [7, 7, 8, 10], "texture": "#0"},
+				"up": {"uv": [7, 7, 8, 8], "texture": "#0"},
+				"down": {"uv": [7, 9, 8, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "weed_diamond_axe_12",
+			"from": [12, 4, 7.5],
+			"to": [13, 9, 8.5],
+			"faces": {
+				"north": {"uv": [13, 7, 12, 12], "texture": "#0"},
+				"east": {"uv": [12, 7, 13, 12], "texture": "#0"},
+				"south": {"uv": [12, 7, 13, 12], "texture": "#0"},
+				"west": {"uv": [12, 7, 13, 12], "texture": "#0"},
+				"up": {"uv": [12, 7, 13, 8], "texture": "#0"},
+				"down": {"uv": [12, 11, 13, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "weed_diamond_axe_13",
+			"from": [6, 5, 7.5],
+			"to": [7, 8, 8.5],
+			"faces": {
+				"north": {"uv": [7, 8, 6, 11], "texture": "#0"},
+				"east": {"uv": [6, 8, 7, 11], "texture": "#0"},
+				"south": {"uv": [6, 8, 7, 11], "texture": "#0"},
+				"west": {"uv": [6, 8, 7, 11], "texture": "#0"},
+				"up": {"uv": [6, 8, 7, 9], "texture": "#0"},
+				"down": {"uv": [6, 10, 7, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "weed_diamond_axe_14",
+			"from": [5, 4, 7.5],
+			"to": [6, 7, 8.5],
+			"faces": {
+				"north": {"uv": [6, 9, 5, 12], "texture": "#0"},
+				"east": {"uv": [5, 9, 6, 12], "texture": "#0"},
+				"south": {"uv": [5, 9, 6, 12], "texture": "#0"},
+				"west": {"uv": [5, 9, 6, 12], "texture": "#0"},
+				"up": {"uv": [5, 9, 6, 10], "texture": "#0"},
+				"down": {"uv": [5, 11, 6, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "weed_diamond_axe_15",
+			"from": [13, 5, 7.5],
+			"to": [15, 7, 8.5],
+			"faces": {
+				"north": {"uv": [15, 9, 13, 11], "texture": "#0"},
+				"east": {"uv": [14, 9, 15, 11], "texture": "#0"},
+				"south": {"uv": [13, 9, 15, 11], "texture": "#0"},
+				"west": {"uv": [13, 9, 14, 11], "texture": "#0"},
+				"up": {"uv": [13, 9, 15, 10], "texture": "#0"},
+				"down": {"uv": [13, 10, 15, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "weed_diamond_axe_16",
+			"from": [4, 3, 7.5],
+			"to": [5, 6, 8.5],
+			"faces": {
+				"north": {"uv": [5, 10, 4, 13], "texture": "#0"},
+				"east": {"uv": [4, 10, 5, 13], "texture": "#0"},
+				"south": {"uv": [4, 10, 5, 13], "texture": "#0"},
+				"west": {"uv": [4, 10, 5, 13], "texture": "#0"},
+				"up": {"uv": [4, 10, 5, 11], "texture": "#0"},
+				"down": {"uv": [4, 12, 5, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "weed_diamond_axe_17",
+			"from": [9, 3, 7.5],
+			"to": [10, 6, 8.5],
+			"faces": {
+				"north": {"uv": [10, 10, 9, 13], "texture": "#0"},
+				"east": {"uv": [9, 10, 10, 13], "texture": "#0"},
+				"south": {"uv": [9, 10, 10, 13], "texture": "#0"},
+				"west": {"uv": [9, 10, 10, 13], "texture": "#0"},
+				"up": {"uv": [9, 10, 10, 11], "texture": "#0"},
+				"down": {"uv": [9, 12, 10, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "weed_diamond_axe_18",
+			"from": [3, 2, 7.5],
+			"to": [4, 5, 8.5],
+			"faces": {
+				"north": {"uv": [4, 11, 3, 14], "texture": "#0"},
+				"east": {"uv": [3, 11, 4, 14], "texture": "#0"},
+				"south": {"uv": [3, 11, 4, 14], "texture": "#0"},
+				"west": {"uv": [3, 11, 4, 14], "texture": "#0"},
+				"up": {"uv": [3, 11, 4, 12], "texture": "#0"},
+				"down": {"uv": [3, 13, 4, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "weed_diamond_axe_19",
+			"from": [13, 4, 7.5],
+			"to": [14, 5, 8.5],
+			"faces": {
+				"north": {"uv": [14, 11, 13, 12], "texture": "#0"},
+				"east": {"uv": [13, 11, 14, 12], "texture": "#0"},
+				"south": {"uv": [13, 11, 14, 12], "texture": "#0"},
+				"west": {"uv": [13, 11, 14, 12], "texture": "#0"},
+				"up": {"uv": [13, 11, 14, 12], "texture": "#0"},
+				"down": {"uv": [13, 11, 14, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "weed_diamond_axe_20",
+			"from": [2, 0, 7.5],
+			"to": [3, 4, 8.5],
+			"faces": {
+				"north": {"uv": [3, 12, 2, 16], "texture": "#0"},
+				"east": {"uv": [2, 12, 3, 16], "texture": "#0"},
+				"south": {"uv": [2, 12, 3, 16], "texture": "#0"},
+				"west": {"uv": [2, 12, 3, 16], "texture": "#0"},
+				"up": {"uv": [2, 12, 3, 13], "texture": "#0"},
+				"down": {"uv": [2, 15, 3, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "weed_diamond_axe_21",
+			"from": [0, 0, 7.5],
+			"to": [2, 3, 8.5],
+			"faces": {
+				"north": {"uv": [2, 13, 0, 16], "texture": "#0"},
+				"east": {"uv": [1, 13, 2, 16], "texture": "#0"},
+				"south": {"uv": [0, 13, 2, 16], "texture": "#0"},
+				"west": {"uv": [0, 13, 1, 16], "texture": "#0"},
+				"up": {"uv": [0, 13, 2, 14], "texture": "#0"},
+				"down": {"uv": [0, 15, 2, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-115.5, 84.93, 160.18],
+			"translation": [0, 3.25, 2],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-86.6, 86.02, 42.26],
+			"translation": [0, 3, 1.75],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_righthand": {
+			"rotation": [-134.9, -79.27, -90.9],
+			"translation": [-0.75, 4.25, 0],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"firstperson_lefthand": {
+			"rotation": [27.96, 77.3, -71.52],
+			"translation": [-0.25, 4.25, 0],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"ground": {
+			"translation": [0, 5, 0],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"gui": {
+			"rotation": [0, -27.25, 0],
+			"scale": [0.91, 0.91, 0.91]
+		},
+		"fixed": {
+			"translation": [0, 0, -0.75],
+			"scale": [1.43, 1.43, 1.43]
+		}
+	},
+	"groups": [
+		{
+			"name": "weed_diamond_axe",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+		}
+	]
+}

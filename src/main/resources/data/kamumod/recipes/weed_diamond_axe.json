@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "ISI",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "I": {
+      "item": "kamumod:weed_diamond_ingot"
+    }
+  },
+  "result": {
+    "item": "kamumod:weed_diamond_axe",
+    "count": 1
+  }
+}

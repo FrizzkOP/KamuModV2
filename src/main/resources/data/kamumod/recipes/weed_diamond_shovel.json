@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "I": {
+      "item": "kamumod:weed_diamond_ingot"
+    }
+  },
+  "result": {
+    "item": "kamumod:weed_diamond_shovel",
+    "count": 1
+  }
+}
