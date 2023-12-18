@@ -27,7 +27,7 @@ public class GrinderItem extends Item {
             }
 
             if(count != 1){
-                pPlayer.getItemInHand(InteractionHand.OFF_HAND).setCount(count - 1);
+                pPlayer.getItemInHand(InteractionHand.OFF_HAND).shrink(1);
             }
             pPlayer.getItemInHand(InteractionHand.MAIN_HAND).hurtAndBreak(1, pPlayer, player -> player.broadcastBreakEvent(pPlayer.getUsedItemHand()));
             pPlayer.playSound(SoundEvents.GRINDSTONE_USE, 0.6f,1.0f);

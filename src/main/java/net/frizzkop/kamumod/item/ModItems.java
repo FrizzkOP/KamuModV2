@@ -38,8 +38,8 @@ public class ModItems {
     public static final RegistryObject<Item> WEED_CIGARRETE_CASE = ITEMS.register("weed_cigarrete_case", () -> new WeedCigarreteCaseItem(new Item.Properties().durability(6)));
     public static final RegistryObject<Item> HACHIS_CIGARRETE_CASE = ITEMS.register("hachis_cigarrete_case", () -> new HachisCigarreteCaseItem(new Item.Properties().durability(6)));
     public static final RegistryObject<Item> ROLLING_PAPER_BOOKLET = ITEMS.register("rolling_paper_booklet", () -> new RollingPaperBookletItem(new Item.Properties().durability(18)));
-    public static final RegistryObject<Item> EMPTY_BONG = ITEMS.register("empty_bong_item", () -> new EmptyBongItem(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<Item> FILLED_BONG = ITEMS.register("filled_bong_item", () -> new FilledBongItem(new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> EMPTY_BONG = ITEMS.register("empty_bong_item", () -> new EmptyBongItem(ModBlocks.EMPTY_BONG.get(), new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> FILLED_BONG = ITEMS.register("filled_bong_item", () -> new FilledBongItem(ModBlocks.FILLED_BONG.get(), new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> LIGHTER = ITEMS.register("lighter", () -> new Item(new Item.Properties().stacksTo(1).durability(25)));
     public static final RegistryObject<Item> WEED_DIAMOND_INGOT = ITEMS.register("weed_diamond_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MOTHERBOARD = ITEMS.register("motherboard", () -> new Item(new Item.Properties()));

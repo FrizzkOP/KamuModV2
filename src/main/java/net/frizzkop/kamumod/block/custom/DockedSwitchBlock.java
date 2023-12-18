@@ -37,14 +37,14 @@ public class DockedSwitchBlock extends Block {
         Direction direction = pLevel.getBlockState(pPos).getValue(FACING);
         if(pPlayer.getItemInHand(InteractionHand.MAIN_HAND).isEmpty()){
             pPlayer.setItemInHand(InteractionHand.MAIN_HAND, new ItemStack(ModItems.SWITCH.get()));
-            pLevel.setBlock(pPos, ModBlocks.SWITCH_DOCK.get().defaultBlockState().setValue(FACING, direction), 1);
+            pLevel.setBlock(pPos, ModBlocks.SWITCH_DOCK.get().defaultBlockState().setValue(FACING, direction), 2);
 
         }else if(!pPlayer.getItemInHand(InteractionHand.MAIN_HAND).isEmpty()){
             if(!pPlayer.getInventory().add(new ItemStack(ModItems.SWITCH.get()))) {
                 pPlayer.drop(new ItemStack(ModItems.SWITCH.get()), false);
             }
 
-            pLevel.setBlock(pPos, ModBlocks.SWITCH_DOCK.get().defaultBlockState().setValue(FACING, direction), 1);
+            pLevel.setBlock(pPos, ModBlocks.SWITCH_DOCK.get().defaultBlockState().setValue(FACING, direction), 2);
         }
 
         pPlayer.playSound(SoundEvents.ITEM_PICKUP,1 ,1);

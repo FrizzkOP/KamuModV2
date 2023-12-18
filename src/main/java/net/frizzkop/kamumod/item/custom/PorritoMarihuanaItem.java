@@ -64,6 +64,6 @@ public class PorritoMarihuanaItem extends Item {
             pPlayer.displayClientMessage(Component.literal("Necesitas un mechero para encenderte el canuto"), true);
         }
 
-        return InteractionResultHolder.consume(itemstack);
+        return InteractionResultHolder.pass(itemstack);
     }
 }

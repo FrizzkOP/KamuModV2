@@ -3,6 +3,7 @@ package net.frizzkop.kamumod.block;
 import net.frizzkop.kamumod.KamuMod;
 import net.frizzkop.kamumod.block.custom.*;
 import net.frizzkop.kamumod.item.ModItems;
+import net.frizzkop.kamumod.item.custom.EmptyBongItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -31,6 +32,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> FILLED_BONG = registerBlock("filled_bong_block",
             () -> new FilledBongBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion()));
+
 
     // CONSOLES
     public static final RegistryObject<Block> XBOX360 = registerBlock("xbox360",

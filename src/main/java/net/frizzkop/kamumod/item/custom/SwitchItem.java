@@ -29,12 +29,11 @@ public class SwitchItem extends Item {
         BlockPos blockPos = pContext.getClickedPos();
         Block block = level.getBlockState(blockPos).getBlock();
         ItemStack itemstack = player.getItemInHand(InteractionHand.MAIN_HAND);
-        int count = itemstack.getCount();
 
         if(block.equals(ModBlocks.SWITCH_DOCK.get())){
             Direction direction = level.getBlockState(blockPos).getValue(FACING);
-            itemstack.setCount(count -1);
-            level.setBlock(blockPos, ModBlocks.DOCKED_SWITCH.get().defaultBlockState().setValue(FACING, direction), 1);
+            itemstack.shrink(1);
+            level.setBlock(blockPos, ModBlocks.DOCKED_SWITCH.get().defaultBlockState().setValue(FACING, direction), 2);
             player.playSound(SoundEvents.ITEM_PICKUP, 1, 1);
 
             return InteractionResult.SUCCESS;

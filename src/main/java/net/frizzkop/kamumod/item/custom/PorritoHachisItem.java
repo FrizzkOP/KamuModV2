@@ -64,6 +64,6 @@ public class PorritoHachisItem extends Item {
             pPlayer.displayClientMessage(Component.literal("Necesitas un mechero para encenderte el porrito"), true);
         }
 
-        return InteractionResultHolder.consume(itemstack);
+        return InteractionResultHolder.pass(itemstack);
     }
 }
