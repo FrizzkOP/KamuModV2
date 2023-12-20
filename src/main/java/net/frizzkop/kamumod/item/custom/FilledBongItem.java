@@ -48,6 +48,7 @@ public class FilledBongItem extends BlockItem {
         for(int i = 0 ; i < 10 ; i++) {
             pLevel.addParticle(ParticleTypes.CAMPFIRE_COSY_SMOKE, pLivingEntity.getX(), pLivingEntity.getY() + 2, pLivingEntity.getZ(), 0, 0.02d, 0.02d);
         }
+
         pLivingEntity.playSound(SoundEvents.FIRE_EXTINGUISH, 0.5F, 1.0F);
         return pStack;
     }

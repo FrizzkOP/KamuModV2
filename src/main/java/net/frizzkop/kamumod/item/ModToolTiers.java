@@ -13,7 +13,7 @@ import java.util.List;
 
 public class ModToolTiers {
     public static final Tier WEED = TierSortingRegistry.registerTier(
-            new ForgeTier(3, 1800, 1F, 2.0F, 14,
+            new ForgeTier(3, 1800, 9.5F, 2.0F, 14,
                     ModTags.Blocks.NEEDS_WEED_TOOL, () -> Ingredient.of(ModItems.WEED_BUD.get())),
             new ResourceLocation(KamuMod.MOD_ID, "weed_bud"), List.of(Tiers.DIAMOND), List.of());
 
